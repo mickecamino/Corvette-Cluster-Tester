@@ -45,15 +45,15 @@ void setup() {
 
 // This is the main routine, run once only
 // loop through all positions
-  for (int ic = 0; ic <= 31; ic++) {						  	// number of IC's
+  for (int ic = 0; ic <= 31; ic++) {                // number of IC's
     for (int bitpos = 0; bitpos <= 7; bitpos++ ) {  // number of bits
-      lcdbitstream[ic] = lcdbits[bitpos]; 			  	// set bit
-      SendBitStream(); 														  // send it to the display
-      lcdbitstream[ic] = 0; 										  	// reset the current position in the array to 0
+      lcdbitstream[ic] = lcdbits[bitpos];           // set bit
+      SendBitStream();                              // send it to the display
+      lcdbitstream[ic] = 0;                         // reset the current position in the array to 0
 
-      digitalWrite(led, HIGH); 										  // turn on the LED
-      delay(500); 																  // delay 0,5 second
-      digitalWrite(led, LOW); 										  // Turn of the LED
+      digitalWrite(led, HIGH);                      // turn on the LED
+      delay(500);                                   // delay 0,5 second
+      digitalWrite(led, LOW);                       // Turn of the LED
       delay(500); 
     } // bitpos
   } // ic
@@ -62,7 +62,7 @@ void setup() {
 
 void loop()
 {
-	// Do nothing
+  // Do nothing
 }
 
 
@@ -81,7 +81,7 @@ for (int i = 0; i <= 31; i++) // send out 8 bits at a time until we have sent al
 #endif
     shiftOut(dataPin, clockPin, LSBFIRST, lcdbitstream[i]); // send out 8 bits with clock
   }
-  digitalWrite(strobePin, HIGH); 	// strobe after all 256 bits have been sent
-  delayMicroseconds(5); 					// 5 us delay
-  digitalWrite(strobePin, LOW); 	// strobe done
+  digitalWrite(strobePin, HIGH);  // strobe after all 256 bits have been sent
+  delayMicroseconds(5);           // 5 us delay
+  digitalWrite(strobePin, LOW);   // strobe done
 }
