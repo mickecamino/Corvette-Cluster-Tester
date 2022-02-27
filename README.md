@@ -13,7 +13,7 @@ All panels are unique for 1984, they only exists this year.
 The digits on the info LCD are really small, the larger digits has curved segments.
 
 **1985**
-These panels have really nice digts, crist and clear.
+These panels have really nice digts, crisp and clear.
 The info panel and speedometer stays the same from 1985-1989.
 The tachometer is without upshift symbol.
 
