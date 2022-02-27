@@ -27,3 +27,17 @@ The tachometer had an O and D added segments for Drive and/or Overdrive symbol.
 This year the tachometer had an up-arrow with the text UPSHIFT ONE TO FOUR.
 
 I will add code for the different years once I have them tested.
+
+## How the LCD panel is driven
+The PCB with the LCD panels has 8 40-pin IC's that control the three LCD screens.
+The IC's are M8438B6 from SGS-Thomson or AY0438 from Microchip. They control up to 32 LCD segments and is driven by serial data. Each IC has one Data In and one Data Out.
+8 IC's * 32 outputs = 256 and that is how the panel is driven, a burst of clocked 256 bit data followed by a Strobe to output the data. Each pin is latched.
+
+## The Code
+The code is pretty simple and easy to modify. 
+Most of the code contains array's for the different segments. There is one function that outputs data to the display, it takes two arguments, parameter one is the array name and parameter two is the number of positions to output.
+
+## Connections
+Pin 5 (Strobe) of the cluster connects to pin 8 on the Arduino
+Pin 7 (Clock)  of the cluster connects to pin 9 on the Arduino
+Pin 8 (Data)   of the cluster connects to pin 10 on the Arduino
