@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Corvette Cluster 1984-1989 LCD PCB 1546569F"
 Date "2022-02-20"
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 " "
 Comment2 ""
@@ -556,7 +556,7 @@ L Device:CP C?
 U 1 1 6230EA5A
 P 4075 9025
 F 0 "C?" V 3950 9025 50  0001 C CNN
-F 1 "33uF 63V" H 4425 9025 50  0000 C CNN
+F 1 "33uF 63V" H 3800 9175 50  0000 C CNN
 F 2 "" H 4113 8875 50  0001 C CNN
 F 3 "~" H 4075 9025 50  0001 C CNN
 	1    4075 9025
@@ -770,7 +770,7 @@ Connection ~ 5925 10825
 Wire Wire Line
 	5775 10825 5925 10825
 Wire Wire Line
-	5300 8075 4075 8075
+	5300 8075 4325 8075
 Connection ~ 4575 9875
 Text Notes 2200 8100 0    50   ~ 0
 IG1
@@ -1026,4 +1026,22 @@ Text Notes 875  15600 0    315  ~ 63
 NOTE!\nThis is a reference schematioc. It will NOT pass electrical check
 Text Notes 6275 1475 0    315  ~ 0
 Corvette Cluster 1984-1989 LCD PCB 1546569F
+$Comp
+L Device:C C?
+U 1 1 621EECC8
+P 4325 9025
+F 0 "C?" H 4440 9071 50  0001 L CNN
+F 1 "100nF" H 4400 9175 50  0000 L CNN
+F 2 "" H 4363 8875 50  0001 C CNN
+F 3 "~" H 4325 9025 50  0001 C CNN
+	1    4325 9025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4075 9175 4325 9175
+Wire Wire Line
+	4325 8875 4325 8075
+Connection ~ 4325 8075
+Wire Wire Line
+	4325 8075 4075 8075
 $EndSCHEMATC
