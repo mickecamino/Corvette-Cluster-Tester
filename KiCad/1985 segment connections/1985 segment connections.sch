@@ -1,0 +1,3559 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "Corvette Cluster 1984-1989 LCD PCB 1546569F"
+Date "2022-02-20"
+Rev "0.1"
+Comp ""
+Comment1 " "
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L M8438A:M8438A U10
+U 1 1 621014FC
+P 6975 4800
+F 0 "U10" H 6675 6550 50  0000 C CNN
+F 1 "M8438A" H 7175 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 7000 4550 50  0001 C CNN
+F 3 "" H 6975 4800 50  0001 C CNN
+	1    6975 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U9
+U 1 1 621033B9
+P 8525 4800
+F 0 "U9" H 8225 6550 50  0000 C CNN
+F 1 "M8438A" H 8725 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 8550 4550 50  0001 C CNN
+F 3 "" H 8525 4800 50  0001 C CNN
+	1    8525 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U8
+U 1 1 6210533F
+P 10075 4800
+F 0 "U8" H 9775 6550 50  0000 C CNN
+F 1 "M8438A" H 10275 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 10100 4550 50  0001 C CNN
+F 3 "" H 10075 4800 50  0001 C CNN
+	1    10075 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U7
+U 1 1 62105345
+P 11625 4800
+F 0 "U7" H 11325 6550 50  0000 C CNN
+F 1 "M8438A" H 11800 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 11650 4550 50  0001 C CNN
+F 3 "" H 11625 4800 50  0001 C CNN
+	1    11625 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U6
+U 1 1 6212739B
+P 13175 4800
+F 0 "U6" H 12875 6550 50  0000 C CNN
+F 1 "M8438A" H 13375 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 13200 4550 50  0001 C CNN
+F 3 "" H 13175 4800 50  0001 C CNN
+	1    13175 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U5
+U 1 1 621273A1
+P 14725 4800
+F 0 "U5" H 14425 6550 50  0000 C CNN
+F 1 "M8438A" H 14925 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 14750 4550 50  0001 C CNN
+F 3 "" H 14725 4800 50  0001 C CNN
+	1    14725 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U3
+U 1 1 621273A7
+P 16275 4800
+F 0 "U3" H 15975 6550 50  0000 C CNN
+F 1 "M8438A" H 16450 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 16300 4550 50  0001 C CNN
+F 3 "" H 16275 4800 50  0001 C CNN
+	1    16275 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M8438A:M8438A U2
+U 1 1 621273AD
+P 17825 4800
+F 0 "U2" H 17500 6550 50  0000 C CNN
+F 1 "M8438A" H 18025 6550 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 17850 4550 50  0001 C CNN
+F 3 "" H 17825 4800 50  0001 C CNN
+	1    17825 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 3300 7625 3300
+Wire Wire Line
+	7625 3300 7625 3500
+Wire Wire Line
+	7625 3500 8025 3500
+Wire Wire Line
+	9025 3300 9150 3300
+Wire Wire Line
+	9150 3300 9150 3500
+Wire Wire Line
+	9150 3500 9575 3500
+Wire Wire Line
+	10575 3300 10700 3300
+Wire Wire Line
+	10700 3300 10700 3500
+Wire Wire Line
+	10700 3500 11125 3500
+Wire Wire Line
+	12125 3300 12275 3300
+Wire Wire Line
+	12275 3300 12275 3500
+Wire Wire Line
+	12275 3500 12675 3500
+Wire Wire Line
+	13675 3300 13825 3300
+Wire Wire Line
+	13825 3300 13825 3500
+Wire Wire Line
+	13825 3500 14225 3500
+Wire Wire Line
+	15225 3300 15375 3300
+Wire Wire Line
+	15375 3300 15375 3500
+Wire Wire Line
+	15375 3500 15775 3500
+Wire Wire Line
+	16775 3300 16925 3300
+Wire Wire Line
+	16925 3300 16925 3500
+Wire Wire Line
+	16925 3500 17325 3500
+Wire Wire Line
+	5575 2600 6050 2600
+Wire Wire Line
+	7725 2600 7725 3650
+Wire Wire Line
+	7725 3650 8025 3650
+Wire Wire Line
+	7725 2600 9250 2600
+Wire Wire Line
+	9250 2600 9250 3650
+Wire Wire Line
+	9250 3650 9575 3650
+Connection ~ 7725 2600
+Wire Wire Line
+	9250 2600 10800 2600
+Wire Wire Line
+	10800 2600 10800 3650
+Wire Wire Line
+	10800 3650 11125 3650
+Connection ~ 9250 2600
+Wire Wire Line
+	10800 2600 12375 2600
+Wire Wire Line
+	12375 2600 12375 3650
+Wire Wire Line
+	12375 3650 12675 3650
+Connection ~ 10800 2600
+Wire Wire Line
+	12375 2600 13925 2600
+Wire Wire Line
+	13925 2600 13925 3650
+Wire Wire Line
+	13925 3650 14225 3650
+Connection ~ 12375 2600
+Wire Wire Line
+	13925 2600 15475 2600
+Wire Wire Line
+	15475 2600 15475 3650
+Wire Wire Line
+	15475 3650 15775 3650
+Connection ~ 13925 2600
+Wire Wire Line
+	15475 2600 17175 2600
+Wire Wire Line
+	17175 2600 17175 3650
+Wire Wire Line
+	17175 3650 17325 3650
+Connection ~ 15475 2600
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 6213E16C
+P 1525 4725
+F 0 "J?" H 1633 5314 50  0001 C CNN
+F 1 "Conn_01x12_Male" H 1633 5315 50  0001 C CNN
+F 2 "" H 1525 4725 50  0001 C CNN
+F 3 "~" H 1525 4725 50  0001 C CNN
+	1    1525 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 6800 6975 6975
+Wire Wire Line
+	6975 6975 8525 6975
+Wire Wire Line
+	8525 6975 8525 6800
+Wire Wire Line
+	8525 6975 10075 6975
+Wire Wire Line
+	10075 6975 10075 6800
+Connection ~ 8525 6975
+Wire Wire Line
+	10075 6975 11625 6975
+Wire Wire Line
+	11625 6975 11625 6800
+Connection ~ 10075 6975
+Wire Wire Line
+	11625 6975 13175 6975
+Wire Wire Line
+	13175 6975 13175 6800
+Connection ~ 11625 6975
+Wire Wire Line
+	13175 6975 14725 6975
+Wire Wire Line
+	14725 6975 14725 6800
+Connection ~ 13175 6975
+Wire Wire Line
+	14725 6975 16275 6975
+Wire Wire Line
+	16275 6975 16275 6800
+Connection ~ 14725 6975
+Wire Wire Line
+	16275 6975 17825 6975
+Wire Wire Line
+	17825 6975 17825 6800
+Connection ~ 16275 6975
+Wire Wire Line
+	6975 6975 5050 6975
+Wire Wire Line
+	5050 6975 5050 4325
+Wire Wire Line
+	5050 4325 1800 4325
+Connection ~ 6975 6975
+Wire Wire Line
+	1725 4825 5575 4825
+Wire Wire Line
+	1725 4925 5725 4925
+Wire Wire Line
+	5725 4925 5725 3500
+Wire Wire Line
+	5725 3500 6475 3500
+Wire Wire Line
+	5425 2700 5425 4625
+Wire Wire Line
+	5425 4625 1725 4625
+Wire Wire Line
+	7925 2700 7925 3200
+Wire Wire Line
+	7925 3200 8025 3200
+Wire Wire Line
+	7925 2700 9450 2700
+Wire Wire Line
+	9450 2700 9450 3200
+Wire Wire Line
+	9450 3200 9575 3200
+Connection ~ 7925 2700
+Wire Wire Line
+	9450 2700 11000 2700
+Wire Wire Line
+	11000 2700 11000 3200
+Wire Wire Line
+	11000 3200 11125 3200
+Connection ~ 9450 2700
+Wire Wire Line
+	11000 2700 12575 2700
+Wire Wire Line
+	12575 2700 12575 3200
+Wire Wire Line
+	12575 3200 12675 3200
+Connection ~ 11000 2700
+Wire Wire Line
+	12575 2700 14125 2700
+Wire Wire Line
+	14125 2700 14125 3200
+Wire Wire Line
+	14125 3200 14225 3200
+Connection ~ 12575 2700
+Wire Wire Line
+	14125 2700 15675 2700
+Wire Wire Line
+	15675 2700 15675 3200
+Wire Wire Line
+	15675 3200 15775 3200
+Connection ~ 14125 2700
+Wire Wire Line
+	15675 2700 17100 2700
+Wire Wire Line
+	17100 2700 17100 3200
+Wire Wire Line
+	17100 3200 17325 3200
+Connection ~ 15675 2700
+Wire Wire Line
+	17325 3350 17250 3350
+Wire Wire Line
+	15575 2800 15575 3350
+Wire Wire Line
+	15575 3350 15775 3350
+Wire Wire Line
+	15575 2800 14025 2800
+Wire Wire Line
+	14025 2800 14025 3350
+Wire Wire Line
+	14025 3350 14225 3350
+Wire Wire Line
+	14025 2800 12475 2800
+Wire Wire Line
+	12475 2800 12475 3350
+Wire Wire Line
+	12475 3350 12675 3350
+Connection ~ 14025 2800
+Wire Wire Line
+	12475 2800 10900 2800
+Wire Wire Line
+	10900 2800 10900 3350
+Wire Wire Line
+	10900 3350 11125 3350
+Connection ~ 12475 2800
+Wire Wire Line
+	10900 2800 9350 2800
+Wire Wire Line
+	9350 2800 9350 3350
+Wire Wire Line
+	9350 3350 9575 3350
+Connection ~ 10900 2800
+Wire Wire Line
+	9350 2800 7825 2800
+Wire Wire Line
+	7825 2800 7825 3350
+Wire Wire Line
+	7825 3350 8025 3350
+Connection ~ 9350 2800
+Wire Wire Line
+	7825 2800 6150 2800
+Wire Wire Line
+	6150 2800 6150 3350
+Wire Wire Line
+	6150 3350 6475 3350
+Connection ~ 7825 2800
+Wire Wire Line
+	6975 3000 6975 2525
+Wire Wire Line
+	6975 2525 8525 2525
+Wire Wire Line
+	8525 2525 8525 3000
+Wire Wire Line
+	8525 2525 10075 2525
+Wire Wire Line
+	10075 2525 10075 3000
+Connection ~ 8525 2525
+Wire Wire Line
+	10075 2525 10550 2525
+Wire Wire Line
+	11625 2525 11625 3000
+Connection ~ 10075 2525
+Wire Wire Line
+	11625 2525 13175 2525
+Wire Wire Line
+	13175 2525 13175 3000
+Connection ~ 11625 2525
+Wire Wire Line
+	13175 2525 14725 2525
+Wire Wire Line
+	14725 2525 14725 3000
+Connection ~ 13175 2525
+Wire Wire Line
+	14725 2525 16275 2525
+Wire Wire Line
+	16275 2525 16275 3000
+Connection ~ 14725 2525
+Wire Wire Line
+	16275 2525 17825 2525
+Wire Wire Line
+	17825 2525 17825 3000
+Connection ~ 16275 2525
+Wire Wire Line
+	6975 2525 5250 2525
+Wire Wire Line
+	5250 2525 5250 4525
+Wire Wire Line
+	5250 4525 1725 4525
+Connection ~ 6975 2525
+$Comp
+L Device:Lamp LA4
+U 1 1 6212A257
+P 3450 6025
+F 0 "LA4" H 3578 6071 50  0001 L CNN
+F 1 "Lamp" H 3578 6025 50  0001 L CNN
+F 2 "" V 3450 6125 50  0001 C CNN
+F 3 "~" V 3450 6125 50  0001 C CNN
+	1    3450 6025
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	3800 5875 3800 6925
+Wire Notes Line
+	3800 6925 3125 6925
+Wire Notes Line
+	3125 6925 3125 5875
+Wire Notes Line
+	3125 5875 3800 5875
+Text Notes 3150 7100 0    47   ~ 0
+Background lights\nfor the LCD
+$Comp
+L Device:Lamp LA?
+U 1 1 6215D0C1
+P 2575 6350
+F 0 "LA?" H 2703 6396 50  0001 L CNN
+F 1 "Lamp" H 2703 6350 50  0001 L CNN
+F 2 "" V 2575 6450 50  0001 C CNN
+F 3 "~" V 2575 6450 50  0001 C CNN
+	1    2575 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Lamp LA?
+U 1 1 6215D0C7
+P 2325 6350
+F 0 "LA?" H 2453 6396 50  0001 L CNN
+F 1 "Lamp" H 2453 6350 50  0001 L CNN
+F 2 "" V 2325 6450 50  0001 C CNN
+F 3 "~" V 2325 6450 50  0001 C CNN
+	1    2325 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Lamp LA?
+U 1 1 6215D0CD
+P 2075 6350
+F 0 "LA?" H 2203 6396 50  0001 L CNN
+F 1 "Lamp" H 2203 6350 50  0001 L CNN
+F 2 "" V 2075 6450 50  0001 C CNN
+F 3 "~" V 2075 6450 50  0001 C CNN
+	1    2075 6350
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	1825 6125 2975 6125
+Wire Notes Line
+	2975 6125 2975 6675
+Wire Notes Line
+	2975 6675 1825 6675
+Wire Notes Line
+	1825 6675 1825 6125
+Text Notes 2525 6775 2    47   ~ 0
+Indicators
+Wire Wire Line
+	2575 6550 2325 6550
+Connection ~ 2325 6550
+Wire Wire Line
+	2325 6550 2075 6550
+Text Notes 2075 6650 2    50   ~ 0
+Left
+Text Notes 2900 6650 2    50   ~ 0
+Right
+Text Notes 2600 6650 2    50   ~ 0
+High Beam
+Wire Wire Line
+	1725 5025 2575 5025
+Wire Wire Line
+	1725 5225 2075 5225
+Wire Wire Line
+	1725 5125 2325 5125
+$Comp
+L Device:R_PHOTO R?
+U 1 1 621D6B9D
+P 1575 3750
+F 0 "R?" H 1645 3796 50  0001 L CNN
+F 1 "DIMMER" H 1025 3750 50  0000 L CNN
+F 2 "" V 1625 3500 50  0001 L CNN
+F 3 "~" H 1575 3700 50  0001 C CNN
+	1    1575 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 3900 1800 3900
+Wire Wire Line
+	1800 3900 1800 4325
+Connection ~ 1800 4325
+Wire Wire Line
+	1800 4325 1725 4325
+Wire Wire Line
+	1725 4425 1900 4425
+Wire Wire Line
+	1900 4425 1900 3600
+Wire Wire Line
+	1900 3600 1575 3600
+Wire Wire Line
+	2775 6550 2575 6550
+Connection ~ 2575 6550
+$Comp
+L Device:R R?
+U 1 1 62295ACB
+P 4725 5600
+F 0 "R?" H 4795 5646 50  0001 L CNN
+F 1 "3.9K" V 4725 5525 50  0000 L CNN
+F 2 "" V 4655 5600 50  0001 C CNN
+F 3 "~" H 4725 5600 50  0001 C CNN
+	1    4725 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62296B7B
+P 4900 6825
+F 0 "R?" H 4970 6871 50  0001 L CNN
+F 1 "10K" V 4900 6750 50  0000 L CNN
+F 2 "" V 4830 6825 50  0001 C CNN
+F 3 "~" H 4900 6825 50  0001 C CNN
+	1    4900 6825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 4725 4725 5450
+$Comp
+L Device:R R?
+U 1 1 622F059F
+P 4425 6125
+F 0 "R?" V 4325 6125 50  0001 C CNN
+F 1 "140" V 4425 6125 50  0000 C CNN
+F 2 "" V 4355 6125 50  0001 C CNN
+F 3 "~" H 4425 6125 50  0001 C CNN
+	1    4425 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 5975 4425 5825
+$Comp
+L Device:R R?
+U 1 1 622FB160
+P 4425 5600
+F 0 "R?" V 4325 5600 50  0001 C CNN
+F 1 "3.9K" V 4425 5600 50  0000 C CNN
+F 2 "" V 4355 5600 50  0001 C CNN
+F 3 "~" H 4425 5600 50  0001 C CNN
+	1    4425 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4425 6475 4425 6275
+$Comp
+L Device:CP C?
+U 1 1 6230EA5A
+P 3200 5175
+F 0 "C?" V 3075 5175 50  0001 C CNN
+F 1 "33uF 63V" H 2900 5300 50  0000 C CNN
+F 2 "" H 3238 5025 50  0001 C CNN
+F 3 "~" H 3200 5175 50  0001 C CNN
+	1    3200 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 4225 4425 5375
+$Comp
+L Transistor_BJT:BC546 Q?
+U 1 1 622B8632
+P 4525 6675
+F 0 "Q?" H 4716 6721 50  0001 L CNN
+F 1 "BC546" H 4716 6630 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4725 6600 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4525 6675 50  0001 L CNN
+	1    4525 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_Darlington_BCE Q?
+U 1 1 624B3A05
+P 4125 5825
+F 0 "Q?" H 4316 5779 50  0001 L CNN
+F 1 "TIP110" H 4025 6125 50  0000 L CNN
+F 2 "" H 4325 5925 50  0001 C CNN
+F 3 "~" H 4125 5825 50  0001 C CNN
+	1    4125 5825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4425 6975 4900 6975
+Wire Wire Line
+	4725 5750 4725 6675
+Wire Wire Line
+	4725 6675 4900 6675
+Connection ~ 4725 6675
+Wire Wire Line
+	4325 5825 4425 5825
+Connection ~ 4425 5825
+Wire Wire Line
+	4425 5825 4425 5750
+Wire Wire Line
+	4025 5625 4025 5375
+Wire Wire Line
+	4025 5375 4425 5375
+Connection ~ 4425 5375
+Wire Wire Line
+	4425 5375 4425 5450
+$Comp
+L Device:Lamp LA1
+U 1 1 62129178
+P 3450 6775
+F 0 "LA1" H 3578 6821 50  0001 L CNN
+F 1 "Lamp" H 3578 6775 50  0001 L CNN
+F 2 "" V 3450 6875 50  0001 C CNN
+F 3 "~" V 3450 6875 50  0001 C CNN
+	1    3450 6775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA3
+U 1 1 62129E4D
+P 3450 6275
+F 0 "LA3" H 3578 6321 50  0001 L CNN
+F 1 "Lamp" H 3578 6275 50  0001 L CNN
+F 2 "" V 3450 6375 50  0001 C CNN
+F 3 "~" V 3450 6375 50  0001 C CNN
+	1    3450 6275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Lamp LA2
+U 1 1 62129A57
+P 3450 6525
+F 0 "LA2" H 3578 6571 50  0001 L CNN
+F 1 "Lamp" H 3578 6525 50  0001 L CNN
+F 2 "" V 3450 6625 50  0001 C CNN
+F 3 "~" V 3450 6625 50  0001 C CNN
+	1    3450 6525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 6775 3250 6775
+Wire Wire Line
+	3250 6525 3200 6525
+Connection ~ 3200 6525
+Wire Wire Line
+	3200 6525 3200 6775
+Wire Wire Line
+	3250 6275 3200 6275
+Connection ~ 3200 6275
+Wire Wire Line
+	3200 6275 3200 6525
+Wire Wire Line
+	3250 6025 3200 6025
+Wire Wire Line
+	3200 6025 3200 6275
+Wire Wire Line
+	3700 6775 3650 6775
+Wire Wire Line
+	3650 6525 3700 6525
+Connection ~ 3700 6525
+Wire Wire Line
+	3700 6525 3700 6775
+Wire Wire Line
+	3650 6275 3700 6275
+Connection ~ 3700 6275
+Wire Wire Line
+	3700 6275 3700 6525
+Wire Wire Line
+	3650 6025 3700 6025
+Wire Wire Line
+	3700 6025 3700 6275
+$Comp
+L 4060:4060 U4
+U 1 1 6268E546
+P 19200 2025
+F 0 "U4" H 19000 2675 50  0000 C CNN
+F 1 "4060" H 19100 2000 50  0000 C CNN
+F 2 "" H 19200 2025 50  0001 C CNN
+F 3 "" H 19200 2025 50  0001 C CNN
+	1    19200 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6269B365
+P 19950 1525
+F 0 "R?" V 19850 1525 50  0001 C CNN
+F 1 "47K" V 19950 1525 50  0000 C CNN
+F 2 "" V 19880 1525 50  0001 C CNN
+F 3 "~" H 19950 1525 50  0001 C CNN
+	1    19950 1525
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6269B9EE
+P 19950 1625
+F 0 "R?" V 20025 1475 50  0001 C CNN
+F 1 "15K" V 19950 1625 50  0000 C CNN
+F 2 "" V 19880 1625 50  0001 C CNN
+F 3 "~" H 19950 1625 50  0001 C CNN
+	1    19950 1625
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 626A80D5
+P 19925 1750
+F 0 "C?" V 20050 1575 50  0001 C CNN
+F 1 "220p" V 20050 1750 50  0000 C CNN
+F 2 "" H 19925 1750 50  0001 C CNN
+F 3 "~" H 19925 1750 50  0001 C CNN
+	1    19925 1750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	19800 1525 19700 1525
+Wire Wire Line
+	19800 1625 19700 1625
+Wire Wire Line
+	20100 1525 20200 1525
+Wire Wire Line
+	20200 1525 20200 1625
+Wire Wire Line
+	20200 1625 20100 1625
+Wire Wire Line
+	20200 1625 20200 1750
+Connection ~ 20200 1625
+NoConn ~ 18700 1525
+NoConn ~ 18700 1625
+NoConn ~ 18700 1725
+NoConn ~ 18700 1825
+NoConn ~ 18700 1925
+NoConn ~ 18700 2025
+NoConn ~ 18700 2125
+NoConn ~ 18700 2225
+NoConn ~ 18700 2325
+Wire Wire Line
+	17250 3350 17250 2425
+Wire Wire Line
+	17250 2425 18700 2425
+Wire Wire Line
+	4025 6025 3700 6025
+Wire Wire Line
+	1725 5325 2775 5325
+Wire Wire Line
+	2075 5225 2075 6150
+Wire Wire Line
+	2325 6150 2325 5125
+Wire Wire Line
+	2575 5025 2575 6150
+Wire Wire Line
+	2775 5325 2775 6550
+Connection ~ 2775 5325
+Wire Wire Line
+	2775 5325 3200 5325
+Wire Wire Line
+	3200 6025 3200 5325
+Connection ~ 3200 6025
+Connection ~ 3200 5325
+Wire Wire Line
+	3200 5025 3200 4225
+Connection ~ 3200 4225
+Wire Wire Line
+	3200 4225 1725 4225
+Wire Wire Line
+	4725 4725 1725 4725
+Connection ~ 5050 6975
+Wire Wire Line
+	4900 6975 5050 6975
+Wire Wire Line
+	4425 4225 3475 4225
+Connection ~ 3700 6025
+Text Notes 625  4225 0    50   ~ 0
+12 volt at Ignition on
+Text Notes 1025 4350 0    50   ~ 0
+Signal GND
+Text Notes 1325 4450 0    50   ~ 0
+LDR
+Text Notes 1175 4550 0    50   ~ 0
+8.2 volt
+Text Notes 1225 4650 0    50   ~ 0
+Strobe
+Text Notes 1025 4750 0    50   ~ 0
+Dim - PWM
+Text Notes 1275 4850 0    50   ~ 0
+Clock
+Text Notes 1300 4950 0    50   ~ 0
+Data
+Text Notes 875  5050 0    50   ~ 0
+Right turn Lamp
+Text Notes 1050 5150 0    50   ~ 0
+Head Beam
+Text Notes 875  5250 0    50   ~ 0
+Left Turn Signal
+Text Notes 1050 5350 0    50   ~ 0
+Power GND
+Wire Wire Line
+	17825 2525 17825 1225
+Connection ~ 17825 2525
+Wire Wire Line
+	20200 1750 20025 1750
+Wire Wire Line
+	19825 1750 19700 1750
+Wire Wire Line
+	19700 1750 19700 1725
+Wire Wire Line
+	19200 2925 19700 2925
+Wire Wire Line
+	19700 2925 19700 2625
+Wire Wire Line
+	17825 6975 19200 6975
+Wire Wire Line
+	19200 6975 19200 2925
+Connection ~ 17825 6975
+Wire Wire Line
+	6475 3200 6275 3200
+Wire Wire Line
+	6275 3200 6275 2700
+Connection ~ 6275 2700
+Wire Wire Line
+	6275 2700 7925 2700
+Wire Wire Line
+	6050 3650 6475 3650
+Wire Wire Line
+	5575 2600 5575 4825
+Wire Wire Line
+	5425 2700 6275 2700
+Wire Wire Line
+	6050 3650 6050 2600
+Connection ~ 6050 2600
+Wire Wire Line
+	6050 2600 7725 2600
+Connection ~ 4900 6975
+Wire Wire Line
+	4425 6975 4425 6875
+Wire Notes Line
+	3925 5325 5175 5325
+Wire Notes Line
+	5175 5325 5175 7050
+Wire Notes Line
+	5175 7050 3925 7050
+Wire Notes Line
+	3925 7050 3925 5325
+Text Notes 4225 7150 0    50   ~ 0
+Dimmer Circuit
+NoConn ~ 16775 3200
+NoConn ~ 15225 3200
+NoConn ~ 13675 3200
+NoConn ~ 12100 3200
+NoConn ~ 10575 3200
+NoConn ~ 7475 3200
+NoConn ~ 9025 3200
+NoConn ~ 18325 3300
+$Comp
+L 4xxx:4077 U1
+U 1 1 62AF976C
+P 11225 1750
+F 0 "U1" H 11225 2075 50  0001 C CNN
+F 1 "4077" H 11225 1750 50  0000 C CNN
+F 2 "" H 11225 1750 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4076bms.pdf" H 11225 1750 50  0001 C CNN
+	1    11225 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4077 U1
+U 4 1 62B1614F
+P 15575 2175
+F 0 "U1" V 15529 2363 50  0001 L CNN
+F 1 "4077" V 15550 2075 50  0000 L CNN
+F 2 "" H 15575 2175 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4076bms.pdf" H 15575 2175 50  0001 C CNN
+	4    15575 2175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10925 1650 10825 1650
+Wire Wire Line
+	10825 1650 10825 1850
+Wire Wire Line
+	10825 1850 10925 1850
+Wire Wire Line
+	10925 2025 10825 2025
+Wire Wire Line
+	10825 2025 10825 2225
+Wire Wire Line
+	10825 2225 10925 2225
+$Comp
+L 4xxx:4077 U1
+U 2 1 62AFC2A6
+P 11225 2125
+F 0 "U1" H 11200 1925 50  0001 C CNN
+F 1 "4077" H 11250 2125 50  0000 C CNN
+F 2 "" H 11225 2125 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4076bms.pdf" H 11225 2125 50  0001 C CNN
+	2    11225 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10825 1850 10825 2025
+Connection ~ 10825 1850
+Connection ~ 10825 2025
+NoConn ~ 11525 1750
+NoConn ~ 11525 2125
+$Comp
+L 4xxx:4077 U1
+U 5 1 62BA1661
+P 10050 1850
+F 0 "U1" V 10125 1850 50  0000 C CNN
+F 1 "4077" V 9925 1850 50  0000 C CNN
+F 2 "" H 10050 1850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4076bms.pdf" H 10050 1850 50  0001 C CNN
+	5    10050 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 1850 9550 1450
+Wire Wire Line
+	9550 1450 10825 1450
+Wire Wire Line
+	10825 1450 10825 1650
+Connection ~ 10825 1650
+Wire Wire Line
+	10550 1850 10550 2525
+Connection ~ 10550 2525
+Wire Wire Line
+	10550 2525 11625 2525
+Wire Wire Line
+	5050 4325 5050 1450
+Wire Wire Line
+	5050 1450 9550 1450
+Connection ~ 5050 4325
+Connection ~ 9550 1450
+$Comp
+L 4xxx:4077 U1
+U 3 1 62B0924C
+P 14500 1750
+F 0 "U1" V 14454 1938 50  0001 L CNN
+F 1 "4077" V 14475 1650 50  0000 L CNN
+F 2 "" H 14500 1750 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4076bms.pdf" H 14500 1750 50  0001 C CNN
+	3    14500 1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15475 1850 15475 1875
+Wire Wire Line
+	10825 1450 14800 1450
+Wire Wire Line
+	14800 1450 14800 1650
+Connection ~ 10825 1450
+Wire Wire Line
+	15675 1875 15675 1700
+Wire Wire Line
+	15675 1700 16275 1700
+Wire Wire Line
+	16275 1700 16275 2525
+Wire Wire Line
+	15575 2475 15575 2800
+Connection ~ 15575 2800
+Wire Wire Line
+	17825 1225 19200 1225
+Wire Wire Line
+	15475 1850 15475 1575
+Wire Wire Line
+	15475 1575 18450 1575
+Wire Wire Line
+	18450 1575 18450 3200
+Wire Wire Line
+	18450 3200 18325 3200
+Connection ~ 15475 1850
+Wire Wire Line
+	14800 1850 15475 1850
+Wire Wire Line
+	14200 1750 13725 1750
+Wire Wire Line
+	13725 1750 13725 1650
+Wire Wire Line
+	13725 1650 13625 1650
+Wire Wire Line
+	13725 1750 13625 1750
+Connection ~ 13725 1750
+Wire Wire Line
+	13725 1750 13725 1850
+Wire Wire Line
+	13725 1850 13625 1850
+Wire Wire Line
+	13725 1850 13725 1950
+Wire Wire Line
+	13725 1950 13625 1950
+Connection ~ 13725 1850
+Wire Wire Line
+	13725 1950 13725 2050
+Wire Wire Line
+	13725 2050 13625 2050
+Connection ~ 13725 1950
+Text GLabel 13625 1650 0    50   Output ~ 0
+Tach-segment-1
+Text GLabel 13625 1750 0    50   Output ~ 0
+Tach-segment-2
+Text GLabel 13625 1850 0    50   Output ~ 0
+Tach-segment-3
+Text GLabel 13625 2050 0    50   Output ~ 0
+Tach-segment-5
+Text GLabel 13625 1950 0    50   Output ~ 0
+Tach-segment-4
+Text Notes 12750 2275 0    50   ~ 0
+Some segments on the tach\nto be determined which segments
+Text Notes 19575 1100 0    79   ~ 0
+This IC is a clock circuit generating the \nclock for the Back Plane of the LCD's\nFeeding IC8 Pin 31 OSC
+Text Notes 15000 1525 0    50   ~ 0
+This circuit drives the OSC to 7 LCD Drivers\nClock is from Pin 30 of IC8 (BP) 
+Text Notes 14875 2375 0    50   ~ 0
+Truth Table\n A  B  J\n 0  0  1\n 1  0  0\n 0  1  0\n 1  1  1
+Connection ~ 19200 2925
+Wire Wire Line
+	18450 3200 20400 3200
+Connection ~ 18450 3200
+Text GLabel 20400 3200 2    50   Output ~ 0
+Backplane-LCD-panels
+Entry Wire Line
+	7500 3500 7600 3600
+Entry Wire Line
+	7500 3600 7600 3700
+Entry Wire Line
+	7500 3700 7600 3800
+Entry Wire Line
+	7500 3800 7600 3900
+Entry Wire Line
+	7500 3900 7600 4000
+Entry Wire Line
+	7500 4000 7600 4100
+Entry Wire Line
+	7500 4100 7600 4200
+Entry Wire Line
+	7500 4200 7600 4300
+Entry Wire Line
+	7500 4300 7600 4400
+Entry Wire Line
+	7500 4400 7600 4500
+Entry Wire Line
+	7500 4500 7600 4600
+Entry Wire Line
+	7500 4600 7600 4700
+Entry Wire Line
+	7500 5300 7600 5400
+Entry Wire Line
+	7500 5400 7600 5500
+Entry Wire Line
+	7500 5500 7600 5600
+Entry Wire Line
+	7500 5600 7600 5700
+Entry Wire Line
+	7500 5700 7600 5800
+Entry Wire Line
+	7500 5800 7600 5900
+Entry Wire Line
+	7500 5900 7600 6000
+Entry Wire Line
+	7500 6000 7600 6100
+Entry Wire Line
+	7500 6100 7600 6200
+Entry Wire Line
+	7500 6200 7600 6300
+Entry Wire Line
+	7500 6300 7600 6400
+Entry Wire Line
+	7500 6400 7600 6500
+Entry Wire Line
+	7500 6500 7600 6600
+Entry Wire Line
+	7500 6600 7600 6700
+Wire Wire Line
+	7475 3500 7500 3500
+Wire Wire Line
+	7475 3600 7500 3600
+Wire Wire Line
+	7475 3700 7500 3700
+Wire Wire Line
+	7475 3800 7500 3800
+Wire Wire Line
+	7475 3900 7500 3900
+Wire Wire Line
+	7475 4000 7500 4000
+Wire Wire Line
+	7475 4100 7500 4100
+Wire Wire Line
+	7475 4200 7500 4200
+Wire Wire Line
+	7475 4300 7500 4300
+Wire Wire Line
+	7475 4400 7500 4400
+Wire Wire Line
+	7475 4500 7500 4500
+Wire Wire Line
+	7475 4600 7500 4600
+Wire Wire Line
+	7475 5300 7500 5300
+Wire Wire Line
+	7475 5400 7500 5400
+Wire Wire Line
+	7475 5500 7500 5500
+Wire Wire Line
+	7475 5600 7500 5600
+Wire Wire Line
+	7475 5700 7500 5700
+Wire Wire Line
+	7475 5800 7500 5800
+Wire Wire Line
+	7475 5900 7500 5900
+Wire Wire Line
+	7475 6000 7500 6000
+Wire Wire Line
+	7475 6100 7500 6100
+Wire Wire Line
+	7475 6200 7500 6200
+Wire Wire Line
+	7475 6300 7500 6300
+Wire Wire Line
+	7475 6400 7500 6400
+Wire Wire Line
+	7475 6500 7500 6500
+Wire Wire Line
+	7475 6600 7500 6600
+Entry Wire Line
+	9050 3500 9150 3600
+Entry Wire Line
+	9050 3600 9150 3700
+Entry Wire Line
+	9050 3700 9150 3800
+Entry Wire Line
+	9050 3800 9150 3900
+Entry Wire Line
+	9050 3900 9150 4000
+Entry Wire Line
+	9050 4000 9150 4100
+Entry Wire Line
+	9050 4100 9150 4200
+Entry Wire Line
+	9050 4200 9150 4300
+Entry Wire Line
+	9050 4300 9150 4400
+Entry Wire Line
+	9050 4400 9150 4500
+Entry Wire Line
+	9050 4500 9150 4600
+Entry Wire Line
+	9050 4600 9150 4700
+Entry Wire Line
+	9050 4700 9150 4800
+Entry Wire Line
+	9050 4800 9150 4900
+Entry Wire Line
+	9050 4900 9150 5000
+Entry Wire Line
+	9050 5000 9150 5100
+Entry Wire Line
+	9050 5100 9150 5200
+Entry Wire Line
+	9050 5200 9150 5300
+Entry Wire Line
+	9050 5300 9150 5400
+Entry Wire Line
+	9050 5400 9150 5500
+Entry Wire Line
+	9050 5500 9150 5600
+Entry Wire Line
+	9050 5600 9150 5700
+Entry Wire Line
+	9050 5700 9150 5800
+Entry Wire Line
+	9050 5800 9150 5900
+Entry Wire Line
+	9050 5900 9150 6000
+Entry Wire Line
+	9050 6000 9150 6100
+Entry Wire Line
+	9050 6100 9150 6200
+Entry Wire Line
+	9050 6200 9150 6300
+Entry Wire Line
+	9050 6300 9150 6400
+Entry Wire Line
+	9050 6400 9150 6500
+Entry Wire Line
+	9050 6500 9150 6600
+Entry Wire Line
+	9050 6600 9150 6700
+Wire Wire Line
+	9025 3600 9050 3600
+Wire Wire Line
+	9025 3700 9050 3700
+Wire Wire Line
+	9025 3800 9050 3800
+Wire Wire Line
+	9025 3900 9050 3900
+Wire Wire Line
+	9025 4000 9050 4000
+Wire Wire Line
+	9025 4100 9050 4100
+Wire Wire Line
+	9025 4200 9050 4200
+Wire Wire Line
+	9025 4300 9050 4300
+Wire Wire Line
+	9025 4400 9050 4400
+Wire Wire Line
+	9025 4500 9050 4500
+Wire Wire Line
+	9025 4600 9050 4600
+Wire Wire Line
+	9025 4700 9050 4700
+Wire Wire Line
+	9025 4800 9050 4800
+Wire Wire Line
+	9025 4900 9050 4900
+Wire Wire Line
+	9025 5000 9050 5000
+Wire Wire Line
+	9025 5100 9050 5100
+Wire Wire Line
+	9025 5200 9050 5200
+Wire Wire Line
+	9025 5300 9050 5300
+Wire Wire Line
+	9025 5400 9050 5400
+Wire Wire Line
+	9025 5500 9050 5500
+Wire Wire Line
+	9025 5600 9050 5600
+Wire Wire Line
+	9025 5700 9050 5700
+Wire Wire Line
+	9025 5800 9050 5800
+Wire Wire Line
+	9025 5900 9050 5900
+Wire Wire Line
+	9025 6000 9050 6000
+Wire Wire Line
+	9025 6100 9050 6100
+Wire Wire Line
+	9025 6200 9050 6200
+Wire Wire Line
+	9025 6300 9050 6300
+Wire Wire Line
+	9025 6400 9050 6400
+Wire Wire Line
+	9025 6500 9050 6500
+Wire Wire Line
+	9025 6600 9050 6600
+Entry Wire Line
+	10600 3500 10700 3600
+Entry Wire Line
+	10600 3600 10700 3700
+Entry Wire Line
+	10600 3700 10700 3800
+Entry Wire Line
+	10600 3800 10700 3900
+Entry Wire Line
+	10600 3900 10700 4000
+Entry Wire Line
+	10600 4000 10700 4100
+Entry Wire Line
+	10600 4100 10700 4200
+Entry Wire Line
+	10600 4200 10700 4300
+Entry Wire Line
+	10600 4300 10700 4400
+Entry Wire Line
+	10600 4400 10700 4500
+Entry Wire Line
+	10600 4500 10700 4600
+Entry Wire Line
+	10600 4600 10700 4700
+Entry Wire Line
+	10600 4700 10700 4800
+Entry Wire Line
+	10600 4800 10700 4900
+Entry Wire Line
+	10600 4900 10700 5000
+Entry Wire Line
+	10600 5000 10700 5100
+Entry Wire Line
+	10600 5100 10700 5200
+Entry Wire Line
+	10600 5200 10700 5300
+Entry Wire Line
+	10600 5300 10700 5400
+Entry Wire Line
+	10600 5400 10700 5500
+Entry Wire Line
+	10600 5500 10700 5600
+Entry Wire Line
+	10600 5600 10700 5700
+Entry Wire Line
+	10600 5700 10700 5800
+Entry Wire Line
+	10600 5800 10700 5900
+Entry Wire Line
+	10600 5900 10700 6000
+Entry Wire Line
+	10600 6000 10700 6100
+Entry Wire Line
+	10600 6100 10700 6200
+Entry Wire Line
+	10600 6200 10700 6300
+Entry Wire Line
+	10600 6300 10700 6400
+Entry Wire Line
+	10600 6400 10700 6500
+Entry Wire Line
+	10600 6500 10700 6600
+Entry Wire Line
+	10600 6600 10700 6700
+Wire Wire Line
+	10575 3600 10600 3600
+Wire Wire Line
+	10575 3700 10600 3700
+Wire Wire Line
+	10575 3800 10600 3800
+Wire Wire Line
+	10575 3900 10600 3900
+Wire Wire Line
+	10575 4000 10600 4000
+Wire Wire Line
+	10575 4100 10600 4100
+Wire Wire Line
+	10575 4200 10600 4200
+Wire Wire Line
+	10575 4300 10600 4300
+Wire Wire Line
+	10575 4400 10600 4400
+Wire Wire Line
+	10575 4500 10600 4500
+Wire Wire Line
+	10575 4600 10600 4600
+Wire Wire Line
+	10575 4700 10600 4700
+Wire Wire Line
+	10575 4800 10600 4800
+Wire Wire Line
+	10575 4900 10600 4900
+Wire Wire Line
+	10575 5000 10600 5000
+Wire Wire Line
+	10575 5100 10600 5100
+Wire Wire Line
+	10575 5200 10600 5200
+Wire Wire Line
+	10575 5300 10600 5300
+Wire Wire Line
+	10575 5400 10600 5400
+Wire Wire Line
+	10575 5500 10600 5500
+Wire Wire Line
+	10575 5600 10600 5600
+Wire Wire Line
+	10575 5700 10600 5700
+Wire Wire Line
+	10575 5800 10600 5800
+Wire Wire Line
+	10575 5900 10600 5900
+Wire Wire Line
+	10575 6000 10600 6000
+Wire Wire Line
+	10575 6100 10600 6100
+Wire Wire Line
+	10575 6200 10600 6200
+Wire Wire Line
+	10575 6300 10600 6300
+Wire Wire Line
+	10575 6400 10600 6400
+Wire Wire Line
+	10575 6500 10600 6500
+Wire Wire Line
+	10575 6600 10600 6600
+Entry Wire Line
+	12150 3500 12250 3600
+Entry Wire Line
+	12150 3600 12250 3700
+Entry Wire Line
+	12150 3700 12250 3800
+Entry Wire Line
+	12150 3800 12250 3900
+Entry Wire Line
+	12150 3900 12250 4000
+Entry Wire Line
+	12150 4000 12250 4100
+Entry Wire Line
+	12150 4100 12250 4200
+Entry Wire Line
+	12150 4200 12250 4300
+Entry Wire Line
+	12150 4300 12250 4400
+Entry Wire Line
+	12150 4400 12250 4500
+Entry Wire Line
+	12150 4500 12250 4600
+Entry Wire Line
+	12150 4600 12250 4700
+Entry Wire Line
+	12150 4700 12250 4800
+Entry Wire Line
+	12150 4800 12250 4900
+Entry Wire Line
+	12150 4900 12250 5000
+Entry Wire Line
+	12150 5000 12250 5100
+Entry Wire Line
+	12150 5100 12250 5200
+Entry Wire Line
+	12150 5200 12250 5300
+Entry Wire Line
+	12150 5300 12250 5400
+Entry Wire Line
+	12150 5400 12250 5500
+Entry Wire Line
+	12150 5500 12250 5600
+Entry Wire Line
+	12150 5600 12250 5700
+Entry Wire Line
+	12150 5700 12250 5800
+Entry Wire Line
+	12150 5800 12250 5900
+Entry Wire Line
+	12150 5900 12250 6000
+Entry Wire Line
+	12150 6000 12250 6100
+Entry Wire Line
+	12150 6100 12250 6200
+Entry Wire Line
+	12150 6200 12250 6300
+Entry Wire Line
+	12150 6300 12250 6400
+Entry Wire Line
+	12150 6400 12250 6500
+Entry Wire Line
+	12150 6500 12250 6600
+Entry Wire Line
+	12150 6600 12250 6700
+Wire Wire Line
+	12125 3600 12150 3600
+Wire Wire Line
+	12125 3700 12150 3700
+Wire Wire Line
+	12125 3800 12150 3800
+Wire Wire Line
+	12125 3900 12150 3900
+Wire Wire Line
+	12125 4000 12150 4000
+Wire Wire Line
+	12125 4100 12150 4100
+Wire Wire Line
+	12125 4200 12150 4200
+Wire Wire Line
+	12125 4300 12150 4300
+Wire Wire Line
+	12125 4400 12150 4400
+Wire Wire Line
+	12125 4500 12150 4500
+Wire Wire Line
+	12125 4600 12150 4600
+Wire Wire Line
+	12125 4700 12150 4700
+Wire Wire Line
+	12125 4800 12150 4800
+Wire Wire Line
+	12125 4900 12150 4900
+Wire Wire Line
+	12125 5000 12150 5000
+Wire Wire Line
+	12125 5100 12150 5100
+Wire Wire Line
+	12125 5200 12150 5200
+Wire Wire Line
+	12125 5300 12150 5300
+Wire Wire Line
+	12125 5400 12150 5400
+Wire Wire Line
+	12125 5500 12150 5500
+Wire Wire Line
+	12125 5600 12150 5600
+Wire Wire Line
+	12125 5700 12150 5700
+Wire Wire Line
+	12125 5800 12150 5800
+Wire Wire Line
+	12125 5900 12150 5900
+Wire Wire Line
+	12125 6000 12150 6000
+Wire Wire Line
+	12125 6100 12150 6100
+Wire Wire Line
+	12125 6200 12150 6200
+Wire Wire Line
+	12125 6300 12150 6300
+Wire Wire Line
+	12125 6400 12150 6400
+Wire Wire Line
+	12125 6500 12150 6500
+Wire Wire Line
+	12125 6600 12150 6600
+Entry Wire Line
+	15250 3500 15350 3600
+Entry Wire Line
+	15250 3600 15350 3700
+Entry Wire Line
+	15250 3700 15350 3800
+Entry Wire Line
+	15250 3800 15350 3900
+Entry Wire Line
+	15250 3900 15350 4000
+Entry Wire Line
+	15250 4000 15350 4100
+Entry Wire Line
+	15250 4100 15350 4200
+Entry Wire Line
+	15250 4200 15350 4300
+Entry Wire Line
+	15250 4300 15350 4400
+Entry Wire Line
+	15250 4400 15350 4500
+Entry Wire Line
+	15250 4500 15350 4600
+Entry Wire Line
+	15250 4600 15350 4700
+Entry Wire Line
+	15250 4700 15350 4800
+Entry Wire Line
+	15250 4800 15350 4900
+Entry Wire Line
+	15250 4900 15350 5000
+Entry Wire Line
+	15250 5000 15350 5100
+Entry Wire Line
+	15250 5600 15350 5700
+Entry Wire Line
+	15250 5700 15350 5800
+Entry Wire Line
+	15250 5800 15350 5900
+Entry Wire Line
+	15250 5900 15350 6000
+Entry Wire Line
+	15250 6000 15350 6100
+Entry Wire Line
+	15250 6100 15350 6200
+Entry Wire Line
+	15250 6200 15350 6300
+Entry Wire Line
+	15250 6300 15350 6400
+Entry Wire Line
+	15250 6400 15350 6500
+Entry Wire Line
+	15250 6500 15350 6600
+Entry Wire Line
+	15250 6600 15350 6700
+Wire Wire Line
+	15225 3600 15250 3600
+Wire Wire Line
+	15225 3700 15250 3700
+Wire Wire Line
+	15225 3800 15250 3800
+Wire Wire Line
+	15225 3900 15250 3900
+Wire Wire Line
+	15225 4000 15250 4000
+Wire Wire Line
+	15225 4100 15250 4100
+Wire Wire Line
+	15225 4200 15250 4200
+Wire Wire Line
+	15225 4300 15250 4300
+Wire Wire Line
+	15225 4400 15250 4400
+Wire Wire Line
+	15225 4500 15250 4500
+Wire Wire Line
+	15225 4600 15250 4600
+Wire Wire Line
+	15225 4700 15250 4700
+Wire Wire Line
+	15225 4800 15250 4800
+Wire Wire Line
+	15225 4900 15250 4900
+Wire Wire Line
+	15225 5000 15250 5000
+Wire Wire Line
+	15225 5600 15250 5600
+Wire Wire Line
+	15225 5700 15250 5700
+Wire Wire Line
+	15225 5800 15250 5800
+Wire Wire Line
+	15225 5900 15250 5900
+Wire Wire Line
+	15225 6000 15250 6000
+Wire Wire Line
+	15225 6100 15250 6100
+Wire Wire Line
+	15225 6200 15250 6200
+Wire Wire Line
+	15225 6300 15250 6300
+Wire Wire Line
+	15225 6400 15250 6400
+Wire Wire Line
+	15225 6500 15250 6500
+Wire Wire Line
+	15225 6600 15250 6600
+Entry Wire Line
+	18350 3500 18450 3600
+Entry Wire Line
+	18350 3600 18450 3700
+Entry Wire Line
+	18350 3700 18450 3800
+Entry Wire Line
+	18350 3800 18450 3900
+Entry Wire Line
+	18350 3900 18450 4000
+Entry Wire Line
+	18350 4000 18450 4100
+Entry Wire Line
+	18350 4100 18450 4200
+Entry Wire Line
+	18350 4200 18450 4300
+Entry Wire Line
+	18350 4300 18450 4400
+Entry Wire Line
+	18350 4400 18450 4500
+Entry Wire Line
+	18350 4500 18450 4600
+Entry Wire Line
+	18350 4600 18450 4700
+Entry Wire Line
+	18350 4700 18450 4800
+Entry Wire Line
+	18350 4800 18450 4900
+Entry Wire Line
+	18350 4900 18450 5000
+Entry Wire Line
+	18350 5000 18450 5100
+Entry Wire Line
+	18350 5100 18450 5200
+Entry Wire Line
+	18350 5200 18450 5300
+Entry Wire Line
+	18350 5300 18450 5400
+Entry Wire Line
+	18350 5400 18450 5500
+Entry Wire Line
+	18350 5500 18450 5600
+Entry Wire Line
+	18350 5600 18450 5700
+Entry Wire Line
+	18350 5700 18450 5800
+Entry Wire Line
+	18350 5800 18450 5900
+Entry Wire Line
+	18350 5900 18450 6000
+Entry Wire Line
+	18350 6000 18450 6100
+Entry Wire Line
+	18350 6100 18450 6200
+Entry Wire Line
+	18350 6200 18450 6300
+Entry Wire Line
+	18350 6300 18450 6400
+Entry Wire Line
+	18350 6400 18450 6500
+Entry Wire Line
+	18350 6500 18450 6600
+Entry Wire Line
+	18350 6600 18450 6700
+Wire Wire Line
+	18325 3600 18350 3600
+Wire Wire Line
+	18325 3700 18350 3700
+Wire Wire Line
+	18325 3800 18350 3800
+Wire Wire Line
+	18325 3900 18350 3900
+Wire Wire Line
+	18325 4000 18350 4000
+Wire Wire Line
+	18325 4100 18350 4100
+Wire Wire Line
+	18325 4200 18350 4200
+Wire Wire Line
+	18325 4300 18350 4300
+Wire Wire Line
+	18325 4400 18350 4400
+Wire Wire Line
+	18325 4500 18350 4500
+Wire Wire Line
+	18325 4600 18350 4600
+Wire Wire Line
+	18325 4700 18350 4700
+Wire Wire Line
+	18325 4800 18350 4800
+Wire Wire Line
+	18325 4900 18350 4900
+Wire Wire Line
+	18325 5000 18350 5000
+Wire Wire Line
+	18325 5100 18350 5100
+Wire Wire Line
+	18325 5200 18350 5200
+Wire Wire Line
+	18325 5300 18350 5300
+Wire Wire Line
+	18325 5400 18350 5400
+Wire Wire Line
+	18325 5500 18350 5500
+Wire Wire Line
+	18325 5600 18350 5600
+Wire Wire Line
+	18325 5700 18350 5700
+Wire Wire Line
+	18325 5800 18350 5800
+Wire Wire Line
+	18325 5900 18350 5900
+Wire Wire Line
+	18325 6000 18350 6000
+Wire Wire Line
+	18325 6100 18350 6100
+Wire Wire Line
+	18325 6200 18350 6200
+Wire Wire Line
+	18325 6300 18350 6300
+Wire Wire Line
+	18325 6400 18350 6400
+Wire Wire Line
+	18325 6500 18350 6500
+Wire Wire Line
+	18325 6600 18350 6600
+Wire Wire Line
+	9025 3500 9050 3500
+Wire Wire Line
+	10575 3500 10600 3500
+Wire Wire Line
+	12125 3500 12150 3500
+Entry Wire Line
+	13700 3500 13800 3600
+Entry Wire Line
+	13700 3600 13800 3700
+Entry Wire Line
+	13700 3700 13800 3800
+Entry Wire Line
+	13700 3800 13800 3900
+Entry Wire Line
+	13700 3900 13800 4000
+Entry Wire Line
+	13700 4000 13800 4100
+Entry Wire Line
+	13700 4100 13800 4200
+Entry Wire Line
+	13700 4400 13800 4500
+Entry Wire Line
+	13700 4700 13800 4800
+Entry Wire Line
+	13700 4800 13800 4900
+Entry Wire Line
+	13700 4900 13800 5000
+Entry Wire Line
+	13700 5000 13800 5100
+Entry Wire Line
+	13700 5100 13800 5200
+Entry Wire Line
+	13700 5200 13800 5300
+Entry Wire Line
+	13700 5300 13800 5400
+Entry Wire Line
+	13700 5400 13800 5500
+Entry Wire Line
+	13700 5500 13800 5600
+Entry Wire Line
+	13700 5600 13800 5700
+Entry Wire Line
+	13700 5700 13800 5800
+Entry Wire Line
+	13700 5800 13800 5900
+Entry Wire Line
+	13700 5900 13800 6000
+Entry Wire Line
+	13700 6000 13800 6100
+Entry Wire Line
+	13700 6100 13800 6200
+Entry Wire Line
+	13700 6200 13800 6300
+Entry Wire Line
+	13700 6300 13800 6400
+Entry Wire Line
+	13700 6400 13800 6500
+Entry Wire Line
+	13700 6500 13800 6600
+Entry Wire Line
+	13700 6600 13800 6700
+Wire Wire Line
+	13675 3600 13700 3600
+Wire Wire Line
+	13675 3700 13700 3700
+Wire Wire Line
+	13675 3800 13700 3800
+Wire Wire Line
+	13675 3900 13700 3900
+Wire Wire Line
+	13675 4000 13700 4000
+Wire Wire Line
+	13675 4100 13700 4100
+Wire Wire Line
+	13675 4400 13700 4400
+Wire Wire Line
+	13675 4700 13700 4700
+Wire Wire Line
+	13675 4800 13700 4800
+Wire Wire Line
+	13675 4900 13700 4900
+Wire Wire Line
+	13675 5000 13700 5000
+Wire Wire Line
+	13675 5100 13700 5100
+Wire Wire Line
+	13675 5200 13700 5200
+Wire Wire Line
+	13675 5300 13700 5300
+Wire Wire Line
+	13675 5400 13700 5400
+Wire Wire Line
+	13675 5500 13700 5500
+Wire Wire Line
+	13675 5600 13700 5600
+Wire Wire Line
+	13675 5700 13700 5700
+Wire Wire Line
+	13675 5800 13700 5800
+Wire Wire Line
+	13675 5900 13700 5900
+Wire Wire Line
+	13675 6000 13700 6000
+Wire Wire Line
+	13675 6100 13700 6100
+Wire Wire Line
+	13675 6200 13700 6200
+Wire Wire Line
+	13675 6300 13700 6300
+Wire Wire Line
+	13675 6400 13700 6400
+Wire Wire Line
+	13675 6500 13700 6500
+Wire Wire Line
+	13675 6600 13700 6600
+Wire Wire Line
+	13675 3500 13700 3500
+Wire Wire Line
+	15225 3500 15250 3500
+Entry Wire Line
+	16800 3500 16900 3600
+Entry Wire Line
+	16800 3600 16900 3700
+Entry Wire Line
+	16800 3700 16900 3800
+Entry Wire Line
+	16800 3800 16900 3900
+Entry Wire Line
+	16800 3900 16900 4000
+Entry Wire Line
+	16800 4000 16900 4100
+Entry Wire Line
+	16800 4100 16900 4200
+Entry Wire Line
+	16800 4200 16900 4300
+Entry Wire Line
+	16800 4300 16900 4400
+Entry Wire Line
+	16800 4400 16900 4500
+Entry Wire Line
+	16800 4500 16900 4600
+Entry Wire Line
+	16800 4600 16900 4700
+Entry Wire Line
+	16800 4700 16900 4800
+Entry Wire Line
+	16800 4800 16900 4900
+Entry Wire Line
+	16800 4900 16900 5000
+Entry Wire Line
+	16800 5000 16900 5100
+Entry Wire Line
+	16800 5100 16900 5200
+Entry Wire Line
+	16800 5300 16900 5400
+Entry Wire Line
+	16800 5400 16900 5500
+Entry Wire Line
+	16800 5500 16900 5600
+Entry Wire Line
+	16800 5600 16900 5700
+Entry Wire Line
+	16800 5700 16900 5800
+Entry Wire Line
+	16800 5800 16900 5900
+Entry Wire Line
+	16800 5900 16900 6000
+Entry Wire Line
+	16800 6000 16900 6100
+Entry Wire Line
+	16800 6100 16900 6200
+Entry Wire Line
+	16800 6200 16900 6300
+Entry Wire Line
+	16800 6300 16900 6400
+Entry Wire Line
+	16800 6400 16900 6500
+Entry Wire Line
+	16800 6500 16900 6600
+Entry Wire Line
+	16800 6600 16900 6700
+Wire Wire Line
+	16775 3600 16800 3600
+Wire Wire Line
+	16775 3700 16800 3700
+Wire Wire Line
+	16775 3800 16800 3800
+Wire Wire Line
+	16775 3900 16800 3900
+Wire Wire Line
+	16775 4000 16800 4000
+Wire Wire Line
+	16775 4100 16800 4100
+Wire Wire Line
+	16775 4200 16800 4200
+Wire Wire Line
+	16775 4300 16800 4300
+Wire Wire Line
+	16775 4400 16800 4400
+Wire Wire Line
+	16775 4500 16800 4500
+Wire Wire Line
+	16775 4600 16800 4600
+Wire Wire Line
+	16775 4700 16800 4700
+Wire Wire Line
+	16775 4800 16800 4800
+Wire Wire Line
+	16775 4900 16800 4900
+Wire Wire Line
+	16775 5000 16800 5000
+Wire Wire Line
+	16775 5100 16800 5100
+Wire Wire Line
+	16775 5300 16800 5300
+Wire Wire Line
+	16775 5400 16800 5400
+Wire Wire Line
+	16775 5500 16800 5500
+Wire Wire Line
+	16775 5600 16800 5600
+Wire Wire Line
+	16775 5700 16800 5700
+Wire Wire Line
+	16775 5800 16800 5800
+Wire Wire Line
+	16775 5900 16800 5900
+Wire Wire Line
+	16775 6000 16800 6000
+Wire Wire Line
+	16775 6100 16800 6100
+Wire Wire Line
+	16775 6200 16800 6200
+Wire Wire Line
+	16775 6300 16800 6300
+Wire Wire Line
+	16775 6400 16800 6400
+Wire Wire Line
+	16775 6500 16800 6500
+Wire Wire Line
+	16775 6600 16800 6600
+Wire Wire Line
+	16775 3500 16800 3500
+Wire Wire Line
+	18325 3500 18350 3500
+Entry Bus Bus
+	7600 7625 7500 7725
+Wire Bus Line
+	7500 7725 1400 7725
+Entry Bus Bus
+	1400 7725 1300 7825
+Entry Wire Line
+	1300 10250 1400 10350
+Entry Wire Line
+	1300 10350 1400 10450
+Entry Wire Line
+	1300 10450 1400 10550
+Entry Wire Line
+	1300 10550 1400 10650
+Entry Wire Line
+	1300 10650 1400 10750
+Entry Wire Line
+	1300 10750 1400 10850
+Entry Wire Line
+	1300 10850 1400 10950
+Entry Wire Line
+	1300 10950 1400 11050
+Entry Wire Line
+	1300 11050 1400 11150
+Entry Wire Line
+	1300 11150 1400 11250
+Entry Wire Line
+	1300 11250 1400 11350
+Entry Wire Line
+	1300 11350 1400 11450
+Entry Wire Line
+	1300 12050 1400 12150
+Entry Wire Line
+	1300 12150 1400 12250
+Entry Wire Line
+	1300 12250 1400 12350
+Entry Wire Line
+	1300 12350 1400 12450
+Entry Wire Line
+	1300 12450 1400 12550
+Entry Wire Line
+	1300 12550 1400 12650
+Entry Wire Line
+	1300 12650 1400 12750
+Entry Wire Line
+	1300 12750 1400 12850
+Entry Wire Line
+	1300 12850 1400 12950
+Entry Wire Line
+	1300 12950 1400 13050
+Entry Wire Line
+	1300 13050 1400 13150
+Entry Wire Line
+	1300 13150 1400 13250
+Entry Wire Line
+	1300 13250 1400 13350
+Entry Wire Line
+	1300 13350 1400 13450
+Text GLabel 1475 10350 2    50   Output ~ 0
+SPEED-miles-dash-33
+Text GLabel 1475 10450 2    50   Output ~ 0
+SPEED-miles-#85
+Text GLabel 1475 10550 2    50   Output ~ 0
+SPEED-miles-dash-32
+Text GLabel 1475 10650 2    50   Output ~ 0
+SPEED-miles-dash-31
+Text GLabel 1475 10750 2    50   Output ~ 0
+SPEED-miles-dot-31
+Text GLabel 1475 10850 2    50   Output ~ 0
+SPEED-miles-dash-30
+Text GLabel 1475 10950 2    50   Output ~ 0
+SPEED-miles-dash-29
+Text GLabel 1475 11050 2    50   Output ~ 0
+SPEED-miles-#75
+Text GLabel 1475 11150 2    50   Output ~ 0
+SPEED-miles-dash-28
+Text GLabel 1475 11250 2    50   Output ~ 0
+SPEED-miles-dash-27
+Text GLabel 1475 11350 2    50   Output ~ 0
+SPEED-miles-dot-27
+Text GLabel 1475 11450 2    50   Output ~ 0
+SPEED-miles-dash-26
+Text GLabel 1475 12150 2    50   Output ~ 0
+SPEED-miles-#45
+Text GLabel 1475 12250 2    50   Output ~ 0
+SPEED-miles-dash-17
+Text GLabel 1475 12350 2    50   Output ~ 0
+SPEED-miles-dash-18
+Text GLabel 1475 12450 2    50   Output ~ 0
+SPEED-miles-dot-19
+Text GLabel 1475 12550 2    50   Output ~ 0
+SPEED-miles-dash-19
+Text GLabel 1475 12650 2    50   Output ~ 0
+SPEED-miles-dash-20
+Text GLabel 1475 12750 2    50   Output ~ 0
+SPEED-miles-#55
+Text GLabel 1475 12850 2    50   Output ~ 0
+SPEED-miles-dash-21
+Text GLabel 1475 12950 2    50   Output ~ 0
+SPEED-miles-dash-22
+Text GLabel 1475 13050 2    50   Output ~ 0
+SPEED-miles-dot-23
+Text GLabel 1475 13150 2    50   Output ~ 0
+SPEED-miles-dash-23
+Text GLabel 1475 13250 2    50   Output ~ 0
+SPEED-miles-dash-24
+Text GLabel 1475 13350 2    50   Output ~ 0
+SPEED-miles-#65
+Text GLabel 1475 13450 2    50   Output ~ 0
+SPEED-miles-dash-25
+Wire Wire Line
+	1400 10350 1475 10350
+Wire Wire Line
+	1400 10450 1475 10450
+Wire Wire Line
+	1400 10550 1475 10550
+Wire Wire Line
+	1400 10650 1475 10650
+Wire Wire Line
+	1400 10750 1475 10750
+Wire Wire Line
+	1400 10850 1475 10850
+Wire Wire Line
+	1400 10950 1475 10950
+Wire Wire Line
+	1475 11050 1400 11050
+Wire Wire Line
+	1400 11150 1475 11150
+Wire Wire Line
+	1400 11250 1475 11250
+Wire Wire Line
+	1400 11350 1475 11350
+Wire Wire Line
+	1400 11450 1475 11450
+Wire Wire Line
+	1400 12150 1475 12150
+Wire Wire Line
+	1400 12250 1475 12250
+Wire Wire Line
+	1400 12350 1475 12350
+Wire Wire Line
+	1400 12450 1475 12450
+Wire Wire Line
+	1400 12550 1475 12550
+Wire Wire Line
+	1400 12650 1475 12650
+Wire Wire Line
+	1400 12750 1475 12750
+Wire Wire Line
+	1400 12850 1475 12850
+Wire Wire Line
+	1400 12950 1475 12950
+Wire Wire Line
+	1400 13050 1475 13050
+Wire Wire Line
+	1400 13150 1475 13150
+Wire Wire Line
+	1400 13250 1475 13250
+Wire Wire Line
+	1400 13350 1475 13350
+Wire Wire Line
+	1400 13450 1475 13450
+Entry Wire Line
+	6500 10250 6600 10350
+Entry Wire Line
+	6500 10350 6600 10450
+Entry Wire Line
+	6500 10450 6600 10550
+Entry Wire Line
+	6500 10550 6600 10650
+Entry Wire Line
+	6500 10650 6600 10750
+Entry Wire Line
+	6500 10750 6600 10850
+Entry Wire Line
+	6500 10850 6600 10950
+Entry Wire Line
+	6500 10950 6600 11050
+Entry Wire Line
+	6500 11050 6600 11150
+Entry Wire Line
+	6500 11150 6600 11250
+Entry Wire Line
+	6500 11250 6600 11350
+Entry Wire Line
+	6500 11350 6600 11450
+Entry Wire Line
+	6500 11450 6600 11550
+Entry Wire Line
+	6500 11550 6600 11650
+Entry Wire Line
+	6500 11650 6600 11750
+Entry Wire Line
+	6500 11750 6600 11850
+Entry Wire Line
+	6500 11850 6600 11950
+Entry Wire Line
+	6500 11950 6600 12050
+Entry Wire Line
+	6500 12050 6600 12150
+Entry Wire Line
+	6500 12150 6600 12250
+Entry Wire Line
+	6500 12250 6600 12350
+Entry Wire Line
+	6500 12350 6600 12450
+Entry Wire Line
+	6500 12450 6600 12550
+Entry Wire Line
+	6500 12550 6600 12650
+Entry Wire Line
+	6500 12650 6600 12750
+Entry Wire Line
+	6500 12750 6600 12850
+Entry Wire Line
+	6500 12850 6600 12950
+Entry Wire Line
+	6500 12950 6600 13050
+Entry Wire Line
+	6500 13050 6600 13150
+Entry Wire Line
+	6500 13150 6600 13250
+Entry Wire Line
+	6500 13250 6600 13350
+Entry Wire Line
+	6500 13350 6600 13450
+Text GLabel 6675 10350 2    50   Output ~ 0
+OIL-middle-E
+Text GLabel 6675 10450 2    50   Output ~ 0
+OIL-text-PSI
+Text GLabel 6675 10550 2    50   Output ~ 0
+OIL-text-kPa
+Text GLabel 6675 10650 2    50   Output ~ 0
+OIL-left-D
+Text GLabel 6675 10750 2    50   Output ~ 0
+OIL-left-E
+Text GLabel 6675 10850 2    50   Output ~ 0
+OIL-red-square
+Text GLabel 6675 10950 2    50   Output ~ 0
+OIL-left-F
+Text GLabel 6675 11050 2    50   Output ~ 0
+OIL-left-A
+Text GLabel 6675 11150 2    50   Output ~ 0
+RANGE-text-MILES
+Text GLabel 6675 11250 2    50   Output ~ 0
+RANGE-text-KM
+Text GLabel 6675 11350 2    50   Output ~ 0
+no-segment-connected
+Text GLabel 6675 11450 2    50   Output ~ 0
+RANGE-left-B
+Text GLabel 6675 11550 2    50   Output ~ 0
+RANGE-left-G
+Text GLabel 6675 11650 2    50   Output ~ 0
+RANGE-left-E
+Text GLabel 6675 11750 2    50   Output ~ 0
+RANGE-left-D
+Text GLabel 6675 11850 2    50   Output ~ 0
+RANGE-left-C
+Text GLabel 6675 11950 2    50   Output ~ 0
+RANGE-middle-left-A
+Text GLabel 6675 12050 2    50   Output ~ 0
+RANGE-middle-left-F
+Text GLabel 6675 12150 2    50   Output ~ 0
+SPEED-middle-G
+Text GLabel 6675 12250 2    50   Output ~ 0
+SPEED-middle-B
+Text GLabel 6675 12350 2    50   Output ~ 0
+SPEED-middle-A
+Text GLabel 6675 12450 2    50   Output ~ 0
+SPEED-text-MPH
+Text GLabel 6675 12550 2    50   Output ~ 0
+SPEED-right-F
+Text GLabel 6675 12650 2    50   Output ~ 0
+SPEED-right-E
+Text GLabel 6675 12750 2    50   Output ~ 0
+SPEED-right-D
+Text GLabel 6675 12850 2    50   Output ~ 0
+SPEED-right-C
+Text GLabel 6675 12950 2    50   Output ~ 0
+SPEED-right-G
+Text GLabel 6675 13050 2    50   Output ~ 0
+SPEED-right-B
+Text GLabel 6675 13150 2    50   Output ~ 0
+SPEED-right-A
+Text GLabel 6675 13250 2    50   Output ~ 0
+OIL-middle-D
+Text GLabel 6675 13350 2    50   Output ~ 0
+OIL-text-OIL-PRESS-and-symbol
+Text GLabel 6675 13450 2    50   Output ~ 0
+OIL-text-OIL-TEMP-and-symbol
+Wire Wire Line
+	6600 10350 6675 10350
+Wire Wire Line
+	6600 10450 6675 10450
+Wire Wire Line
+	6600 10550 6675 10550
+Wire Wire Line
+	6600 10650 6675 10650
+Wire Wire Line
+	6600 10750 6675 10750
+Wire Wire Line
+	6600 10850 6675 10850
+Wire Wire Line
+	6600 10950 6675 10950
+Wire Wire Line
+	6675 11050 6600 11050
+Wire Wire Line
+	6600 11150 6675 11150
+Wire Wire Line
+	6600 11250 6675 11250
+Wire Wire Line
+	6600 11350 6675 11350
+Wire Wire Line
+	6600 11450 6675 11450
+Wire Wire Line
+	6600 11550 6675 11550
+Wire Wire Line
+	6600 11650 6675 11650
+Wire Wire Line
+	6600 11750 6675 11750
+Wire Wire Line
+	6600 11850 6675 11850
+Wire Wire Line
+	6600 11950 6675 11950
+Wire Wire Line
+	6600 12050 6675 12050
+Wire Wire Line
+	6600 12150 6675 12150
+Wire Wire Line
+	6600 12250 6675 12250
+Wire Wire Line
+	6600 12350 6675 12350
+Wire Wire Line
+	6600 12450 6675 12450
+Wire Wire Line
+	6600 12550 6675 12550
+Wire Wire Line
+	6600 12650 6675 12650
+Wire Wire Line
+	6600 12750 6675 12750
+Wire Wire Line
+	6600 12850 6675 12850
+Wire Wire Line
+	6600 12950 6675 12950
+Wire Wire Line
+	6600 13050 6675 13050
+Wire Wire Line
+	6600 13150 6675 13150
+Wire Wire Line
+	6600 13250 6675 13250
+Wire Wire Line
+	6600 13350 6675 13350
+Wire Wire Line
+	6600 13450 6675 13450
+Entry Wire Line
+	9100 10250 9200 10350
+Entry Wire Line
+	9100 10350 9200 10450
+Entry Wire Line
+	9100 10450 9200 10550
+Entry Wire Line
+	9100 10550 9200 10650
+Entry Wire Line
+	9100 10650 9200 10750
+Entry Wire Line
+	9100 10750 9200 10850
+Entry Wire Line
+	9100 10850 9200 10950
+Entry Wire Line
+	9100 10950 9200 11050
+Entry Wire Line
+	9100 11050 9200 11150
+Entry Wire Line
+	9100 11150 9200 11250
+Entry Wire Line
+	9100 11250 9200 11350
+Entry Wire Line
+	9100 11350 9200 11450
+Entry Wire Line
+	9100 11450 9200 11550
+Entry Wire Line
+	9100 11550 9200 11650
+Entry Wire Line
+	9100 11650 9200 11750
+Entry Wire Line
+	9100 11750 9200 11850
+Entry Wire Line
+	9100 11850 9200 11950
+Entry Wire Line
+	9100 11950 9200 12050
+Entry Wire Line
+	9100 12050 9200 12150
+Entry Wire Line
+	9100 12150 9200 12250
+Entry Wire Line
+	9100 12250 9200 12350
+Entry Wire Line
+	9100 12350 9200 12450
+Entry Wire Line
+	9100 12450 9200 12550
+Entry Wire Line
+	9100 12550 9200 12650
+Entry Wire Line
+	9100 12650 9200 12750
+Entry Wire Line
+	9100 12750 9200 12850
+Entry Wire Line
+	9100 12850 9200 12950
+Entry Wire Line
+	9100 12950 9200 13050
+Entry Wire Line
+	9100 13050 9200 13150
+Entry Wire Line
+	9100 13150 9200 13250
+Entry Wire Line
+	9100 13250 9200 13350
+Entry Wire Line
+	9100 13350 9200 13450
+Text GLabel 9275 10350 2    50   Output ~ 0
+OIL-middle-G
+Text GLabel 9275 10450 2    50   Output ~ 0
+OIL-middle-C
+Text GLabel 9275 10550 2    50   Output ~ 0
+OIL-right-E
+Text GLabel 9275 10650 2    50   Output ~ 0
+OIL-right-F
+Text GLabel 9275 10750 2    50   Output ~ 0
+OIL-right-A
+Text GLabel 9275 10850 2    50   Output ~ 0
+OIL-right-B
+Text GLabel 9275 10950 2    50   Output ~ 0
+OIL-right-G
+Text GLabel 9275 11050 2    50   Output ~ 0
+OIL-right-C
+Text GLabel 9275 11150 2    50   Output ~ 0
+OIL-right-D
+Text GLabel 9275 11250 2    50   Output ~ 0
+RANGE-right-C
+Text GLabel 9275 11350 2    50   Output ~ 0
+RANGE-right-D
+Text GLabel 9275 11450 2    50   Output ~ 0
+RANGE-right-E
+Text GLabel 9275 11550 2    50   Output ~ 0
+RANGE-decimal-dot
+Text GLabel 9275 11650 2    50   Output ~ 0
+RANGE-middle-right-B
+Text GLabel 9275 11750 2    50   Output ~ 0
+RANGE-middle-right-C
+Text GLabel 9275 11850 2    50   Output ~ 0
+RANGE-middle-right-D
+Text GLabel 9275 11950 2    50   Output ~ 0
+RANGE-middle-right-E
+Text GLabel 9275 12050 2    50   Output ~ 0
+RANGE-middle-right-G
+Text GLabel 9275 12150 2    50   Output ~ 0
+RANGE-middle-left-G
+Text GLabel 9275 12250 2    50   Output ~ 0
+RANGE-middle-left-E
+Text GLabel 9275 12350 2    50   Output ~ 0
+RANGE-middle-left-D
+Text GLabel 9275 12450 2    50   Output ~ 0
+RANGE-middle-left-C
+Text GLabel 9275 12550 2    50   Output ~ 0
+RANGE-middle-left-B
+Text GLabel 9275 12650 2    50   Output ~ 0
+RANGE-middle-right-F
+Text GLabel 9275 12750 2    50   Output ~ 0
+OIL-middle-B
+Text GLabel 9275 12850 2    50   Output ~ 0
+OIL-middle-A
+Text GLabel 9275 12950 2    50   Output ~ 0
+OIL-middle-F
+Text GLabel 9275 13050 2    50   Output ~ 0
+OIL-left-C
+Text GLabel 9275 13150 2    50   Output ~ 0
+OIL-left-B
+Text GLabel 9275 13250 2    50   Output ~ 0
+OIL-left-A
+Text GLabel 9275 13350 2    50   Output ~ 0
+OIL-left-F
+Text GLabel 9275 13450 2    50   Output ~ 0
+OIL-left-G
+Wire Wire Line
+	9200 10350 9275 10350
+Wire Wire Line
+	9200 10450 9275 10450
+Wire Wire Line
+	9200 10550 9275 10550
+Wire Wire Line
+	9200 10650 9275 10650
+Wire Wire Line
+	9200 10750 9275 10750
+Wire Wire Line
+	9200 10850 9275 10850
+Wire Wire Line
+	9200 10950 9275 10950
+Wire Wire Line
+	9275 11050 9200 11050
+Wire Wire Line
+	9200 11150 9275 11150
+Wire Wire Line
+	9200 11250 9275 11250
+Wire Wire Line
+	9200 11350 9275 11350
+Wire Wire Line
+	9200 11450 9275 11450
+Wire Wire Line
+	9200 11550 9275 11550
+Wire Wire Line
+	9200 11650 9275 11650
+Wire Wire Line
+	9200 11750 9275 11750
+Wire Wire Line
+	9200 11850 9275 11850
+Wire Wire Line
+	9200 11950 9275 11950
+Wire Wire Line
+	9200 12050 9275 12050
+Wire Wire Line
+	9200 12150 9275 12150
+Wire Wire Line
+	9200 12250 9275 12250
+Wire Wire Line
+	9200 12350 9275 12350
+Wire Wire Line
+	9200 12450 9275 12450
+Wire Wire Line
+	9200 12550 9275 12550
+Wire Wire Line
+	9200 12650 9275 12650
+Wire Wire Line
+	9200 12750 9275 12750
+Wire Wire Line
+	9200 12850 9275 12850
+Wire Wire Line
+	9200 12950 9275 12950
+Wire Wire Line
+	9200 13050 9275 13050
+Wire Wire Line
+	9200 13150 9275 13150
+Wire Wire Line
+	9200 13250 9275 13250
+Wire Wire Line
+	9200 13350 9275 13350
+Wire Wire Line
+	9200 13450 9275 13450
+Entry Wire Line
+	11700 10250 11800 10350
+Entry Wire Line
+	11700 10350 11800 10450
+Entry Wire Line
+	11700 10450 11800 10550
+Entry Wire Line
+	11700 10550 11800 10650
+Entry Wire Line
+	11700 10650 11800 10750
+Entry Wire Line
+	11700 10750 11800 10850
+Entry Wire Line
+	11700 10850 11800 10950
+Entry Wire Line
+	11700 11150 11800 11250
+Entry Wire Line
+	11700 11450 11800 11550
+Entry Wire Line
+	11700 11550 11800 11650
+Entry Wire Line
+	11700 11650 11800 11750
+Entry Wire Line
+	11700 11750 11800 11850
+Entry Wire Line
+	11700 11850 11800 11950
+Entry Wire Line
+	11700 11950 11800 12050
+Entry Wire Line
+	11700 12050 11800 12150
+Entry Wire Line
+	11700 12150 11800 12250
+Entry Wire Line
+	11700 12250 11800 12350
+Entry Wire Line
+	11700 12350 11800 12450
+Entry Wire Line
+	11700 12450 11800 12550
+Entry Wire Line
+	11700 12550 11800 12650
+Entry Wire Line
+	11700 12650 11800 12750
+Entry Wire Line
+	11700 12750 11800 12850
+Entry Wire Line
+	11700 12850 11800 12950
+Entry Wire Line
+	11700 12950 11800 13050
+Entry Wire Line
+	11700 13050 11800 13150
+Entry Wire Line
+	11700 13150 11800 13250
+Entry Wire Line
+	11700 13250 11800 13350
+Entry Wire Line
+	11700 13350 11800 13450
+Text GLabel 11875 10350 2    50   Output ~ 0
+GAS-11
+Text GLabel 11875 10450 2    50   Output ~ 0
+GAS-10
+Text GLabel 11875 10550 2    50   Output ~ 0
+GAS-9
+Text GLabel 11875 10650 2    50   Output ~ 0
+GAS-8
+Text GLabel 11875 10750 2    50   Output ~ 0
+GAS-7
+Text GLabel 11875 10850 2    50   Output ~ 0
+GAS-6
+Text GLabel 11875 10950 2    50   Output ~ 0
+VOLT-text-symbol
+Text GLabel 11875 11250 2    50   Output ~ 0
+COOLANT-red-square
+Text GLabel 11875 11550 2    50   Output ~ 0
+COOLANT-left-A-D-E-G
+Text GLabel 11875 11650 2    50   Output ~ 0
+COOLANT-left-B
+Text GLabel 11875 11750 2    50   Output ~ 0
+COOLANT-left-C
+Text GLabel 11875 11850 2    50   Output ~ 0
+GAS-1
+Text GLabel 11875 11950 2    50   Output ~ 0
+GAS-RESERVE-text
+Text GLabel 11875 12050 2    50   Output ~ 0
+RANGE-text
+Text GLabel 11875 12150 2    50   Output ~ 0
+RANGE-right-G
+Text GLabel 11875 12250 2    50   Output ~ 0
+RANGE-right-B
+Text GLabel 11875 12350 2    50   Output ~ 0
+RANGE-right-A
+Text GLabel 11875 12450 2    50   Output ~ 0
+RANGE-right-F
+Text GLabel 11875 12550 2    50   Output ~ 0
+RANGE-middle-right-A
+Text GLabel 11875 12650 2    50   Output ~ 0
+TRIP-text
+Text GLabel 11875 12750 2    50   Output ~ 0
+GAS-12
+Text GLabel 11875 12850 2    50   Output ~ 0
+GAS-17
+Text GLabel 11875 12950 2    50   Output ~ 0
+GAS-16
+Text GLabel 11875 13050 2    50   Output ~ 0
+GAS-15
+Text GLabel 11875 13150 2    50   Output ~ 0
+GAS-14
+Text GLabel 11875 13250 2    50   Output ~ 0
+GAS-13
+Text GLabel 11875 13350 2    50   Output ~ 0
+COOLANT-symbol-C
+Text GLabel 11875 13450 2    50   Output ~ 0
+COOLANT-symbol-F
+Wire Wire Line
+	11800 10350 11875 10350
+Wire Wire Line
+	11800 10450 11875 10450
+Wire Wire Line
+	11800 10550 11875 10550
+Wire Wire Line
+	11800 10650 11875 10650
+Wire Wire Line
+	11800 10750 11875 10750
+Wire Wire Line
+	11800 10850 11875 10850
+Wire Wire Line
+	11800 10950 11875 10950
+Wire Wire Line
+	11800 11250 11875 11250
+Wire Wire Line
+	11800 11550 11875 11550
+Wire Wire Line
+	11800 11650 11875 11650
+Wire Wire Line
+	11800 11750 11875 11750
+Wire Wire Line
+	11800 11850 11875 11850
+Wire Wire Line
+	11800 11950 11875 11950
+Wire Wire Line
+	11800 12050 11875 12050
+Wire Wire Line
+	11800 12150 11875 12150
+Wire Wire Line
+	11800 12250 11875 12250
+Wire Wire Line
+	11800 12350 11875 12350
+Wire Wire Line
+	11800 12450 11875 12450
+Wire Wire Line
+	11800 12550 11875 12550
+Wire Wire Line
+	11800 12650 11875 12650
+Wire Wire Line
+	11800 12750 11875 12750
+Wire Wire Line
+	11800 12850 11875 12850
+Wire Wire Line
+	11800 12950 11875 12950
+Wire Wire Line
+	11800 13050 11875 13050
+Wire Wire Line
+	11800 13150 11875 13150
+Wire Wire Line
+	11800 13250 11875 13250
+Wire Wire Line
+	11800 13350 11875 13350
+Wire Wire Line
+	11800 13450 11875 13450
+Entry Wire Line
+	14300 10250 14400 10350
+Entry Wire Line
+	14300 10350 14400 10450
+Entry Wire Line
+	14300 10450 14400 10550
+Entry Wire Line
+	14300 10550 14400 10650
+Entry Wire Line
+	14300 10650 14400 10750
+Entry Wire Line
+	14300 10750 14400 10850
+Entry Wire Line
+	14300 10850 14400 10950
+Entry Wire Line
+	14300 10950 14400 11050
+Entry Wire Line
+	14300 11050 14400 11150
+Entry Wire Line
+	14300 11150 14400 11250
+Entry Wire Line
+	14300 11250 14400 11350
+Entry Wire Line
+	14300 11350 14400 11450
+Entry Wire Line
+	14300 11450 14400 11550
+Entry Wire Line
+	14300 11550 14400 11650
+Entry Wire Line
+	14300 11650 14400 11750
+Entry Wire Line
+	14300 11750 14400 11850
+Entry Wire Line
+	14300 12350 14400 12450
+Entry Wire Line
+	14300 12450 14400 12550
+Entry Wire Line
+	14300 12550 14400 12650
+Entry Wire Line
+	14300 12650 14400 12750
+Entry Wire Line
+	14300 12750 14400 12850
+Entry Wire Line
+	14300 12850 14400 12950
+Entry Wire Line
+	14300 12950 14400 13050
+Entry Wire Line
+	14300 13050 14400 13150
+Entry Wire Line
+	14300 13150 14400 13250
+Entry Wire Line
+	14300 13250 14400 13350
+Entry Wire Line
+	14300 13350 14400 13450
+Text GLabel 14475 10350 2    50   Output ~ 0
+COOLANT-middle-D
+Text GLabel 14475 10450 2    50   Output ~ 0
+COOLANT-F
+Text GLabel 14475 10550 2    50   Output ~ 0
+COOLANT-C
+Text GLabel 14475 10650 2    50   Output ~ 0
+VOLT-V
+Text GLabel 14475 10750 2    50   Output ~ 0
+COOLANT-text-symbol
+Text GLabel 14475 10850 2    50   Output ~ 0
+COOLANT-right-D
+Text GLabel 14475 10950 2    50   Output ~ 0
+COOLANT-right-C
+Text GLabel 14475 11050 2    50   Output ~ 0
+COOLANT-right-G
+Text GLabel 14475 11150 2    50   Output ~ 0
+COOLANT-right-B
+Text GLabel 14475 11250 2    50   Output ~ 0
+COOLANT-right-A
+Text GLabel 14475 11350 2    50   Output ~ 0
+COOLANT-right-F
+Text GLabel 14475 11450 2    50   Output ~ 0
+COOLANT-right-E
+Text GLabel 14475 11550 2    50   Output ~ 0
+COOLANT-decimal-dot
+Text GLabel 14475 11650 2    50   Output ~ 0
+COOLANT-middle-C
+Text GLabel 14475 11750 2    50   Output ~ 0
+COOLANT-middle-B
+Text GLabel 14475 11850 2    50   Output ~ 0
+COOLANT-middle-A
+Text GLabel 14475 12450 2    50   Output ~ 0
+AVERAGE-left-A-D-E-G
+Text GLabel 14475 12550 2    50   Output ~ 0
+AVERAGE-left-B
+Text GLabel 14475 12650 2    50   Output ~ 0
+AVERAGE-text-AVERAGE
+Text GLabel 14475 12750 2    50   Output ~ 0
+AVERAGE-text-INSTANT
+Text GLabel 14475 12850 2    50   Output ~ 0
+GAS-5
+Text GLabel 14475 12950 2    50   Output ~ 0
+GAS-4
+Text GLabel 14475 13050 2    50   Output ~ 0
+GAS-3
+Text GLabel 14475 13150 2    50   Output ~ 0
+GAS-2
+Text GLabel 14475 13250 2    50   Output ~ 0
+COOLANT-middle-E
+Text GLabel 14475 13350 2    50   Output ~ 0
+COOLANT-middle-G
+Text GLabel 14475 13450 2    50   Output ~ 0
+COOLANT-middle-F
+Wire Wire Line
+	14400 10350 14475 10350
+Wire Wire Line
+	14400 10450 14475 10450
+Wire Wire Line
+	14400 10550 14475 10550
+Wire Wire Line
+	14400 10650 14475 10650
+Wire Wire Line
+	14400 10750 14475 10750
+Wire Wire Line
+	14400 10850 14475 10850
+Wire Wire Line
+	14400 10950 14475 10950
+Wire Wire Line
+	14475 11050 14400 11050
+Wire Wire Line
+	14400 11150 14475 11150
+Wire Wire Line
+	14400 11250 14475 11250
+Wire Wire Line
+	14400 11350 14475 11350
+Wire Wire Line
+	14400 11450 14475 11450
+Wire Wire Line
+	14400 11550 14475 11550
+Wire Wire Line
+	14400 11650 14475 11650
+Wire Wire Line
+	14400 11750 14475 11750
+Wire Wire Line
+	14400 11850 14475 11850
+Wire Wire Line
+	14400 12450 14475 12450
+Wire Wire Line
+	14400 12550 14475 12550
+Wire Wire Line
+	14400 12650 14475 12650
+Wire Wire Line
+	14400 12750 14475 12750
+Wire Wire Line
+	14400 12850 14475 12850
+Wire Wire Line
+	14400 12950 14475 12950
+Wire Wire Line
+	14400 13050 14475 13050
+Wire Wire Line
+	14400 13150 14475 13150
+Wire Wire Line
+	14400 13250 14475 13250
+Wire Wire Line
+	14400 13350 14475 13350
+Wire Wire Line
+	14400 13450 14475 13450
+Entry Wire Line
+	16900 10250 17000 10350
+Entry Wire Line
+	16900 10350 17000 10450
+Entry Wire Line
+	16900 10450 17000 10550
+Entry Wire Line
+	16900 10550 17000 10650
+Entry Wire Line
+	16900 10650 17000 10750
+Entry Wire Line
+	16900 10750 17000 10850
+Entry Wire Line
+	16900 10850 17000 10950
+Entry Wire Line
+	16900 10950 17000 11050
+Entry Wire Line
+	16900 11050 17000 11150
+Entry Wire Line
+	16900 11150 17000 11250
+Entry Wire Line
+	16900 12350 17000 12450
+Entry Wire Line
+	16900 11350 17000 11450
+Entry Wire Line
+	16900 11450 17000 11550
+Entry Wire Line
+	16900 11550 17000 11650
+Entry Wire Line
+	16900 11650 17000 11750
+Entry Wire Line
+	16900 11750 17000 11850
+Entry Wire Line
+	16900 11850 17000 11950
+Entry Wire Line
+	16900 11950 17000 12050
+Entry Wire Line
+	16900 12050 17000 12150
+Entry Wire Line
+	16900 12150 17000 12250
+Entry Wire Line
+	16900 12250 17000 12350
+Entry Wire Line
+	16900 12450 17000 12550
+Entry Wire Line
+	16900 12550 17000 12650
+Entry Wire Line
+	16900 12650 17000 12750
+Entry Wire Line
+	16900 12750 17000 12850
+Entry Wire Line
+	16900 12850 17000 12950
+Entry Wire Line
+	16900 12950 17000 13050
+Entry Wire Line
+	16900 13050 17000 13150
+Entry Wire Line
+	16900 13150 17000 13250
+Entry Wire Line
+	16900 13250 17000 13350
+Text GLabel 17075 10350 2    50   Output ~ 0
+TACH-green-12
+Text GLabel 17075 10550 2    50   Output ~ 0
+TACH-green-10
+Text GLabel 17075 10650 2    50   Output ~ 0
+TACH-green-9
+Text GLabel 17075 10750 2    50   Output ~ 0
+TACH-green-8
+Text GLabel 17075 10850 2    50   Output ~ 0
+TACH-green-7
+Text GLabel 17075 10950 2    50   Output ~ 0
+TACH-green-6
+Text GLabel 17075 11050 2    50   Output ~ 0
+TACH-green-5
+Text GLabel 17075 11150 2    50   Output ~ 0
+TACH-green-4
+Text GLabel 17075 11250 2    50   Output ~ 0
+TACH-green-3
+Text GLabel 17075 11350 2    50   Output ~ 0
+TACH-green-2
+Text GLabel 17075 11450 2    50   Output ~ 0
+TACH-green-1
+Text GLabel 17075 11550 2    50   Output ~ 0
+TACH-0
+Text GLabel 17075 11650 2    50   Output ~ 0
+AVERAGE-middle-G
+Text GLabel 17075 11750 2    50   Output ~ 0
+AVERAGE-middle-F
+Text GLabel 17075 11850 2    50   Output ~ 0
+AVERAGE-middle-A
+Text GLabel 17075 11950 2    50   Output ~ 0
+AVERAGE-left-C
+Text GLabel 17075 12050 2    50   Output ~ 0
+no-segment-connected
+Text GLabel 17075 12150 2    50   Output ~ 0
+AVERAGE-middle-E
+Text GLabel 17075 12250 2    50   Output ~ 0
+AVERAGE-middle-D
+Text GLabel 17075 12350 2    50   Output ~ 0
+AVERAGE-middle-C
+Text GLabel 17075 12450 2    50   Output ~ 0
+AVERAGE-middle-B
+Text GLabel 17075 12650 2    50   Output ~ 0
+AVERAGE-decimal-dot
+Text GLabel 17075 12750 2    50   Output ~ 0
+AVERAGE-right-D
+Text GLabel 17075 12850 2    50   Output ~ 0
+AVERAGE-right-C
+Text GLabel 17075 12950 2    50   Output ~ 0
+AVERAGE-right-G
+Text GLabel 17075 13050 2    50   Output ~ 0
+AVERAGE-right-B
+Text GLabel 17075 13150 2    50   Output ~ 0
+AVERAGE-right-A
+Text GLabel 17075 13250 2    50   Output ~ 0
+AVERAGE-right-F
+Wire Wire Line
+	17000 10350 17075 10350
+Wire Wire Line
+	17000 10450 17075 10450
+Wire Wire Line
+	17000 10550 17075 10550
+Wire Wire Line
+	17000 10650 17075 10650
+Wire Wire Line
+	17000 10750 17075 10750
+Wire Wire Line
+	17000 10850 17075 10850
+Wire Wire Line
+	17000 10950 17075 10950
+Wire Wire Line
+	17075 11050 17000 11050
+Wire Wire Line
+	17000 11150 17075 11150
+Wire Wire Line
+	17000 11250 17075 11250
+Wire Wire Line
+	17000 12450 17075 12450
+Wire Wire Line
+	17000 11450 17075 11450
+Wire Wire Line
+	17000 11550 17075 11550
+Wire Wire Line
+	17000 11650 17075 11650
+Wire Wire Line
+	17000 11750 17075 11750
+Wire Wire Line
+	17000 11850 17075 11850
+Wire Wire Line
+	17000 11950 17075 11950
+Wire Wire Line
+	17000 12050 17075 12050
+Wire Wire Line
+	17000 12150 17075 12150
+Wire Wire Line
+	17000 12250 17075 12250
+Wire Wire Line
+	17000 12350 17075 12350
+Wire Wire Line
+	17000 12550 17075 12550
+Wire Wire Line
+	17000 12650 17075 12650
+Wire Wire Line
+	17000 12750 17075 12750
+Wire Wire Line
+	17000 12850 17075 12850
+Wire Wire Line
+	17000 12950 17075 12950
+Wire Wire Line
+	17000 13050 17075 13050
+Wire Wire Line
+	17000 13150 17075 13150
+Wire Wire Line
+	17000 13250 17075 13250
+Wire Wire Line
+	17000 13350 17075 13350
+Entry Wire Line
+	19500 10250 19600 10350
+Entry Wire Line
+	19500 10350 19600 10450
+Entry Wire Line
+	19500 10450 19600 10550
+Entry Wire Line
+	19500 10550 19600 10650
+Entry Wire Line
+	19500 10650 19600 10750
+Entry Wire Line
+	19500 10750 19600 10850
+Entry Wire Line
+	19500 10850 19600 10950
+Entry Wire Line
+	19500 10950 19600 11050
+Entry Wire Line
+	19500 11050 19600 11150
+Entry Wire Line
+	19500 11150 19600 11250
+Entry Wire Line
+	19500 11250 19600 11350
+Entry Wire Line
+	19500 11350 19600 11450
+Entry Wire Line
+	19500 11450 19600 11550
+Entry Wire Line
+	19500 11550 19600 11650
+Entry Wire Line
+	19500 11650 19600 11750
+Entry Wire Line
+	19500 11750 19600 11850
+Entry Wire Line
+	19500 11850 19600 11950
+Entry Wire Line
+	19500 11950 19600 12050
+Entry Wire Line
+	19500 12050 19600 12150
+Entry Wire Line
+	19500 12150 19600 12250
+Entry Wire Line
+	19500 12250 19600 12350
+Entry Wire Line
+	19500 12350 19600 12450
+Entry Wire Line
+	19500 12450 19600 12550
+Entry Wire Line
+	19500 12550 19600 12650
+Entry Wire Line
+	19500 12650 19600 12750
+Entry Wire Line
+	19500 12750 19600 12850
+Entry Wire Line
+	19500 12850 19600 12950
+Entry Wire Line
+	19500 12950 19600 13050
+Entry Wire Line
+	19500 13050 19600 13150
+Entry Wire Line
+	19500 13150 19600 13250
+Entry Wire Line
+	19500 13250 19600 13350
+Entry Wire Line
+	19500 13350 19600 13450
+Text GLabel 19675 10350 2    50   Output ~ 0
+TACH-0-10-20
+Text GLabel 19675 10450 2    50   Output ~ 0
+TACH-30-40-50-60
+Text GLabel 19675 10550 2    50   Output ~ 0
+TACH-red-3
+Text GLabel 19675 10650 2    50   Output ~ 0
+TACH-red-2
+Text GLabel 19675 10750 2    50   Output ~ 0
+TACH-red-3
+Text GLabel 19675 10850 2    50   Output ~ 0
+TACH-yellow-3
+Text GLabel 19675 10950 2    50   Output ~ 0
+TACH-yellow-2
+Text GLabel 19675 11050 2    50   Output ~ 0
+TACH-yellow-1
+Text GLabel 19675 11150 2    50   Output ~ 0
+TACH-green-18
+Text GLabel 19675 11250 2    50   Output ~ 0
+TACH-green-17
+Text GLabel 19675 11350 2    50   Output ~ 0
+TACH-green-16
+Text GLabel 19675 11450 2    50   Output ~ 0
+RPM-left-F
+Text GLabel 19675 11550 2    50   Output ~ 0
+RPM-left-A
+Text GLabel 19675 11650 2    50   Output ~ 0
+RPM-left-B
+Text GLabel 19675 11750 2    50   Output ~ 0
+RPM-left-G
+Text GLabel 19675 11850 2    50   Output ~ 0
+RPM-right-F
+Text GLabel 19675 11950 2    50   Output ~ 0
+RPM-right-A
+Text GLabel 19675 12050 2    50   Output ~ 0
+RPM-right-B
+Text GLabel 19675 12150 2    50   Output ~ 0
+TACH-green-15
+Text GLabel 19675 12250 2    50   Output ~ 0
+TACH-green-14
+Text GLabel 19675 12350 2    50   Output ~ 0
+TACH-green-13
+Text GLabel 19675 12550 2    50   Output ~ 0
+no-segment-connected
+Text GLabel 19675 12450 2    50   Output ~ 0
+no-segment-connected
+Text GLabel 19675 12650 2    50   Output ~ 0
+RPM-10
+Text GLabel 19675 12750 2    50   Output ~ 0
+RPM-right-0
+Text GLabel 19675 12850 2    50   Output ~ 0
+RPM-left-E
+Text GLabel 19675 12950 2    50   Output ~ 0
+RPM-left-D
+Text GLabel 19675 13050 2    50   Output ~ 0
+RPM-left-C
+Text GLabel 19675 13150 2    50   Output ~ 0
+RPM-right-E
+Text GLabel 19675 13250 2    50   Output ~ 0
+RPM-right-D
+Text GLabel 19675 13350 2    50   Output ~ 0
+RPM-right-C
+Text GLabel 19675 13450 2    50   Output ~ 0
+RPM-right-G
+Wire Wire Line
+	19600 10350 19675 10350
+Wire Wire Line
+	19600 10450 19675 10450
+Wire Wire Line
+	19600 10550 19675 10550
+Wire Wire Line
+	19600 10650 19675 10650
+Wire Wire Line
+	19600 10750 19675 10750
+Wire Wire Line
+	19600 10850 19675 10850
+Wire Wire Line
+	19600 10950 19675 10950
+Wire Wire Line
+	19675 11050 19600 11050
+Wire Wire Line
+	19600 11150 19675 11150
+Wire Wire Line
+	19600 11250 19675 11250
+Wire Wire Line
+	19600 11350 19675 11350
+Wire Wire Line
+	19600 11450 19675 11450
+Wire Wire Line
+	19600 11550 19675 11550
+Wire Wire Line
+	19600 11650 19675 11650
+Wire Wire Line
+	19600 11750 19675 11750
+Wire Wire Line
+	19600 11850 19675 11850
+Wire Wire Line
+	19600 11950 19675 11950
+Wire Wire Line
+	19600 12050 19675 12050
+Wire Wire Line
+	19600 12150 19675 12150
+Wire Wire Line
+	19600 12250 19675 12250
+Wire Wire Line
+	19600 12350 19675 12350
+Wire Wire Line
+	19600 12450 19675 12450
+Wire Wire Line
+	19600 12550 19675 12550
+Wire Wire Line
+	19600 12650 19675 12650
+Wire Wire Line
+	19600 12750 19675 12750
+Wire Wire Line
+	19600 12850 19675 12850
+Wire Wire Line
+	19600 12950 19675 12950
+Wire Wire Line
+	19600 13050 19675 13050
+Wire Wire Line
+	19600 13150 19675 13150
+Wire Wire Line
+	19600 13250 19675 13250
+Wire Wire Line
+	19600 13350 19675 13350
+Wire Wire Line
+	19600 13450 19675 13450
+Entry Bus Bus
+	3900 8025 4000 7925
+Entry Bus Bus
+	6500 8225 6600 8125
+Wire Bus Line
+	4000 7925 9050 7925
+Entry Bus Bus
+	9050 7925 9150 7825
+Entry Bus Bus
+	10700 8025 10600 8125
+Wire Bus Line
+	6600 8125 10600 8125
+Entry Bus Bus
+	9100 8425 9200 8325
+Entry Bus Bus
+	12250 8225 12150 8325
+Wire Bus Line
+	9200 8325 12150 8325
+Entry Bus Bus
+	13800 8425 13700 8525
+Wire Bus Line
+	13700 8525 11800 8525
+Entry Bus Bus
+	11800 8525 11700 8625
+Entry Bus Bus
+	15350 8625 15250 8725
+Wire Bus Line
+	15250 8725 14400 8725
+Entry Bus Bus
+	14400 8725 14300 8825
+Wire Wire Line
+	4000 13450 4075 13450
+Wire Wire Line
+	4000 13350 4075 13350
+Wire Wire Line
+	4000 13250 4075 13250
+Wire Wire Line
+	4000 13150 4075 13150
+Wire Wire Line
+	4000 13050 4075 13050
+Wire Wire Line
+	4000 12950 4075 12950
+Wire Wire Line
+	4000 12850 4075 12850
+Wire Wire Line
+	4000 12750 4075 12750
+Wire Wire Line
+	4000 12650 4075 12650
+Wire Wire Line
+	4000 12550 4075 12550
+Wire Wire Line
+	4000 12450 4075 12450
+Wire Wire Line
+	4000 12350 4075 12350
+Wire Wire Line
+	4000 12250 4075 12250
+Wire Wire Line
+	4000 12150 4075 12150
+Wire Wire Line
+	4000 12050 4075 12050
+Wire Wire Line
+	4000 11950 4075 11950
+Wire Wire Line
+	4000 11850 4075 11850
+Wire Wire Line
+	4000 11750 4075 11750
+Wire Wire Line
+	4000 11650 4075 11650
+Wire Wire Line
+	4000 11550 4075 11550
+Wire Wire Line
+	4000 11450 4075 11450
+Wire Wire Line
+	4000 11350 4075 11350
+Wire Wire Line
+	4000 11250 4075 11250
+Wire Wire Line
+	4000 11150 4075 11150
+Wire Wire Line
+	4075 11050 4000 11050
+Wire Wire Line
+	4000 10950 4075 10950
+Wire Wire Line
+	4000 10850 4075 10850
+Wire Wire Line
+	4000 10750 4075 10750
+Wire Wire Line
+	4000 10650 4075 10650
+Wire Wire Line
+	4000 10550 4075 10550
+Wire Wire Line
+	4000 10450 4075 10450
+Wire Wire Line
+	4000 10350 4075 10350
+Text GLabel 4075 10350 2    50   Output ~ 0
+SPEED-middle-C
+Text GLabel 4075 10450 2    50   Output ~ 0
+SPEED-middle-D
+Text GLabel 4075 10550 2    50   Output ~ 0
+SPEED-middle-E
+Text GLabel 4075 10650 2    50   Output ~ 0
+SPEED-middle-F
+Text GLabel 4075 10750 2    50   Output ~ 0
+SPEED-left-B
+Text GLabel 4075 10850 2    50   Output ~ 0
+SPEED-left-C
+Text GLabel 4075 10950 2    50   Output ~ 0
+SPEED-left-A-D-E-G
+Text GLabel 4075 11050 2    50   Output ~ 0
+SPEED-20-40-60-80-100-120-KM-H
+Text GLabel 4075 11150 2    50   Output ~ 0
+SPEED-miles-dot-7
+Text GLabel 4075 11250 2    50   Output ~ 0
+SPEED-miles-dash-6
+Text GLabel 4075 11350 2    50   Output ~ 0
+SPEED-miles-dash-5
+Text GLabel 4075 11450 2    50   Output ~ 0
+SPEED-miles-#15
+Text GLabel 4075 11550 2    50   Output ~ 0
+SPEED-miles-dash-4
+Text GLabel 4075 11650 2    50   Output ~ 0
+SPEED-miles-dash-3
+Text GLabel 4075 11750 2    50   Output ~ 0
+SPEED-miles-dot-3
+Text GLabel 4075 11850 2    50   Output ~ 0
+SPEED-miles-dash-2
+Text GLabel 4075 11950 2    50   Output ~ 0
+SPEED-miles-dash-1
+Text GLabel 4075 12050 2    50   Output ~ 0
+SPEED-miles-#5
+Text GLabel 4075 12150 2    50   Output ~ 0
+SPEED-miles-dash-7
+Text GLabel 4075 12250 2    50   Output ~ 0
+SPEED-miles-dash-8
+Text GLabel 4075 12350 2    50   Output ~ 0
+SPEED-miles-#25
+Text GLabel 4075 12450 2    50   Output ~ 0
+SPEED-miles-dash-9
+Text GLabel 4075 12550 2    50   Output ~ 0
+SPEED-miles-dash-10
+Text GLabel 4075 12650 2    50   Output ~ 0
+SPEED-miles-dot-11
+Text GLabel 4075 12750 2    50   Output ~ 0
+SPEED-miles-dash-11
+Text GLabel 4075 12850 2    50   Output ~ 0
+SPEED-miles-dash-12
+Text GLabel 4075 12950 2    50   Output ~ 0
+SPEED-miles-#35
+Text GLabel 4075 13050 2    50   Output ~ 0
+SPEED-miles-dash-13
+Text GLabel 4075 13150 2    50   Output ~ 0
+SPEED-miles-dash-14
+Text GLabel 4075 13250 2    50   Output ~ 0
+SPEED-miles-dot-15
+Text GLabel 4075 13350 2    50   Output ~ 0
+SPEED-miles-dash-15
+Text GLabel 4075 13450 2    50   Output ~ 0
+SPEED-miles-dash-16
+Entry Wire Line
+	3900 13350 4000 13450
+Entry Wire Line
+	3900 13250 4000 13350
+Entry Wire Line
+	3900 13150 4000 13250
+Entry Wire Line
+	3900 13050 4000 13150
+Entry Wire Line
+	3900 12950 4000 13050
+Entry Wire Line
+	3900 12850 4000 12950
+Entry Wire Line
+	3900 12750 4000 12850
+Entry Wire Line
+	3900 12650 4000 12750
+Entry Wire Line
+	3900 12550 4000 12650
+Entry Wire Line
+	3900 12450 4000 12550
+Entry Wire Line
+	3900 12350 4000 12450
+Entry Wire Line
+	3900 12250 4000 12350
+Entry Wire Line
+	3900 12150 4000 12250
+Entry Wire Line
+	3900 12050 4000 12150
+Entry Wire Line
+	3900 11950 4000 12050
+Entry Wire Line
+	3900 11850 4000 11950
+Entry Wire Line
+	3900 11750 4000 11850
+Entry Wire Line
+	3900 11650 4000 11750
+Entry Wire Line
+	3900 11550 4000 11650
+Entry Wire Line
+	3900 11450 4000 11550
+Entry Wire Line
+	3900 11350 4000 11450
+Entry Wire Line
+	3900 11250 4000 11350
+Entry Wire Line
+	3900 11150 4000 11250
+Entry Wire Line
+	3900 11050 4000 11150
+Entry Wire Line
+	3900 10950 4000 11050
+Entry Wire Line
+	3900 10850 4000 10950
+Entry Wire Line
+	3900 10750 4000 10850
+Entry Wire Line
+	3900 10650 4000 10750
+Entry Wire Line
+	3900 10550 4000 10650
+Entry Wire Line
+	3900 10450 4000 10550
+Entry Wire Line
+	3900 10350 4000 10450
+Entry Wire Line
+	3900 10250 4000 10350
+Entry Bus Bus
+	18450 8825 18550 8925
+Entry Bus Bus
+	19500 9025 19400 8925
+Wire Bus Line
+	18550 8925 19400 8925
+NoConn ~ 7475 4700
+NoConn ~ 7475 4800
+NoConn ~ 7475 4900
+NoConn ~ 7475 5000
+NoConn ~ 7475 5100
+NoConn ~ 7475 5200
+NoConn ~ 13675 4200
+NoConn ~ 13675 4300
+NoConn ~ 13675 4500
+NoConn ~ 13675 4600
+NoConn ~ 15225 5100
+NoConn ~ 15225 5200
+NoConn ~ 15225 5300
+NoConn ~ 15225 5400
+NoConn ~ 15225 5500
+Text Notes 1650 9925 0    50   ~ 0
+Speedometer only
+Text Notes 4100 9925 0    50   ~ 0
+Speedometer only
+Text Notes 6825 9925 0    50   ~ 0
+Speedometer and Info
+Text Notes 9600 9925 0    50   ~ 0
+Info only
+Text Notes 12000 9925 0    50   ~ 0
+Info only
+Text Notes 14825 9925 0    50   ~ 0
+Info only
+Text Notes 17500 9950 0    50   ~ 0
+Info and Tach
+Text Notes 19975 9950 0    50   ~ 0
+Tach only
+Text Notes 10925 1350 0    50   ~ 0
+Unused Pins
+NoConn ~ 16775 5200
+Text GLabel 17075 12550 2    50   Output ~ 0
+AVERAGE-right-E
+Wire Wire Line
+	17000 13450 17075 13450
+Entry Wire Line
+	16900 13350 17000 13450
+Text GLabel 17075 13350 2    50   Output ~ 0
+AVERAGE-L-100-KM
+Text GLabel 17075 13450 2    50   Output ~ 0
+MPG
+Text GLabel 17075 10450 2    50   Output ~ 0
+TACH-green-11
+Entry Wire Line
+	16900 11250 17000 11350
+Wire Wire Line
+	17000 11350 17075 11350
+Text Notes 19600 10200 0    50   ~ 0
+Segments sorting is 32-1
+Text Notes 1000 2775 0    315  ~ 63
+NOTE\nThis is for 1985 \nsegments ONLY
+Text Notes 725  15875 0    315  ~ 63
+NOTE\nThis schematic is ONLY for reference, it will NOT pass electrical check
+$Comp
+L Device:C C?
+U 1 1 622E84B6
+P 3475 5175
+F 0 "C?" H 3590 5221 50  0001 L CNN
+F 1 "100 nF" H 3550 5300 50  0000 L CNN
+F 2 "" H 3513 5025 50  0001 C CNN
+F 3 "~" H 3475 5175 50  0001 C CNN
+	1    3475 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5325 3475 5325
+Wire Wire Line
+	3475 5025 3475 4225
+Connection ~ 3475 4225
+Wire Wire Line
+	3475 4225 3200 4225
+Wire Bus Line
+	7600 3600 7600 7625
+Wire Bus Line
+	15350 3600 15350 8625
+Wire Bus Line
+	13800 3600 13800 8425
+Wire Bus Line
+	1300 7825 1300 13350
+Wire Bus Line
+	11700 8625 11700 13350
+Wire Bus Line
+	14300 8825 14300 13350
+Wire Bus Line
+	3900 8025 3900 13350
+Wire Bus Line
+	19500 9025 19500 13350
+Wire Bus Line
+	9100 8425 9100 13350
+Wire Bus Line
+	6500 8225 6500 13350
+Wire Bus Line
+	18450 3600 18450 8825
+Wire Bus Line
+	12250 3600 12250 8225
+Wire Bus Line
+	10700 3600 10700 8025
+Wire Bus Line
+	9150 3600 9150 7825
+Wire Bus Line
+	16900 3600 16900 13350
+$EndSCHEMATC
