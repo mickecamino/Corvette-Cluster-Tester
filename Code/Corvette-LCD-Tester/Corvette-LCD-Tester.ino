@@ -88,7 +88,7 @@ void SendBitStream( const int myarray[][bitstream], int size )
     Serial.print("-");
 #endif
       shiftOut(dataPin, clockPin, LSBFIRST, pgm_read_byte_near(&myarray[i][j])); // send out 8 bits with clock
-      } // end shiftOut loog
+      } // end shiftOut loop
     digitalWrite(strobePin, HIGH);  // strobe after all 256 bits have been sent
     delayMicroseconds(5);           // 5 us delay
     digitalWrite(strobePin, LOW);   // strobe done
@@ -96,5 +96,5 @@ void SendBitStream( const int myarray[][bitstream], int size )
 #ifdef SERIALPRINT
     Serial.print("\n");
 #endif
-   } // en size loop
+   } // end size loop
 } 
